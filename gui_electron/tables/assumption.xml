@@ -1,0 +1,46 @@
+<table>
+    <fuel>
+        <headers>
+            <td>Qty </td>
+            <td>Equipment</td>
+            <td>Unit</td>
+            <td>Fuel Per Day</td>
+            <td>Rig Move</td>
+            <td>DSURFACE</td>
+            <td>FSURFACE</td>
+            <td>DINTERMEDIATE</td>
+            <td>FINTERMEDIATE</td>
+            <td>DPRODUCTION</td>
+            <td>FPRODUCTION</td>
+            <td>DLINER 1</td>
+            <td>FLINER 1</td>
+            <td>DLINER 2</td>
+            <td>FLINER 2</td>
+            <td>DLINER 3</td>
+            <td>FLINER 3</td>
+            <td>FRELINE</td>
+        </headers>
+        <rows>
+            <tr> 
+                <td>1</td>
+                <td>Rig</td>
+                <td>Per Day</td>
+                <td></td>
+                <td>1000</td>
+                <td>6500</td>
+                <td>5500</td>
+                <td>6600</td>
+                <td>5500</td>
+                <td>6600</td>
+                <td>5500</td>
+                <td>6600</td>
+                <td>5500</td>
+                <td>6600</td>
+                <td>5500</td>
+                <td>6600</td>
+                <td>5500</td>
+                <td>5500</td>
+            </tr>
+        </rows>
+    </fuel>
+</table>

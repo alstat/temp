@@ -1,0 +1,98 @@
+<table>
+    <jars_and_shock_qty>
+         <headers>
+            <td>Equipment</td>
+            <td>Qty</td>
+            <td>Units</td>
+            <td>RIGMOVE</td>
+            <td>DSURF</td>
+            <td>FSURF</td>
+            <td>DINTER</td>
+            <td>FINTER</td>
+            <td>DPROD</td>
+            <td>FPROD</td>
+            <td>DPL1</td>
+            <td>FPL1</td>
+            <td>DPL2</td>
+            <td>FPL2</td>		
+            <td>Total</td>
+        </headers>
+        <rows>
+            <tr>
+                <td>SHOCKTOOL</td>
+                <td type="input" value="1" id="jars-shock-qty-item0"/><td>per day</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>8" MDJ JAR</td>
+                <td type="input" value="3" id="jars-shock-qty-item1"/><td>per day</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>62" MDJ JAR</td>
+                <td type="input" value="3" id="jars-shock-qty-item2"/><td>per day</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>4¾" DNT JAR</td>
+                <td type="input" value="0" id="jars-shock-qty-item3"/><td>per day</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>BACKUP JAR</td>
+                <td type="input" value="0" id="jars-shock-qty-item4"/><td>per day</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>REDRESS</td>
+                <td type="input" value="7" id="jars-shock-qty-item5"/><td>per job</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+        </rows>
+    </jars_and_shock_qty>
+
+    <jars_and_shock_cost>
+         <headers>
+            <td>Equipment</td>
+            <td></td>
+            <td>Cost</td>
+            <td>RIGMOVE</td>
+            <td>DSURF</td>
+            <td>FSURF</td>
+            <td>DINTER</td>
+            <td>FINTER</td>
+            <td>DPROD</td>
+            <td>FPROD</td>
+            <td>DPL1</td>
+            <td>FPL1</td>
+            <td>DPL2</td>
+            <td>FPL2</td>		
+            <td>Total</td>
+        </headers>
+        <rows>
+            <tr>
+                <td>SHOCKTOOL</td>
+                <td/><td type="input" value="7" id="jars-shock-cost-item0"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>8" MDJ JAR</td>
+                <td/><td type="input" value="7" id="jars-shock-cost-item1"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>62" MDJ JAR</td>
+                <td/><td type="input" value="7" id="jars-shock-cost-item2"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>4¾" DNT JAR</td>
+                <td/><td type="input" value="7" id="jars-shock-cost-item3"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>BACKUP JAR</td>
+                <td/><td type="input" value="7" id="jars-shock-cost-item4"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>REDRESS</td>
+                <td/><td type="input" value="7" id="jars-shock-cost-item5"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td><b> Total </b></td>
+                <td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+        </rows>
+    </jars_and_shock_cost>
+</table>

@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>EDC Permutation Cost Computation</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="w3-styles.css">
+	<link rel="stylesheet" href="styles.css">
+	
+	<!-- <script src="http://code.jquery.com/jquery-1.9.1.js"></script> -->
+	<!-- <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script> -->
+	<script src="js/get_values.js"></script>
+	<script src="js/formulas.js"></script>
+	<script src="js/flask.js"></script>
+	<script src="js/functions.js"></script>
+	<script src="js/permutation_handler.js"></script>
+	<script src="js/computations.js"></script>
+	<script src="js/table_sort.js"></script>
+	<script src="js/cost_details.js"></script>
+	
+	<script src="js/chart_js/dual_axis.js"></script>
+	<script src="js/chart_js/chart_data.js"></script>
+
+	<script src="js/chart_js/Chart.Bundle.js"></script>
+	
+	<!-- startup script - last to be loaded -->
+	<script src="js/startup.js"></script>
+</head>
+
+<body>
+	<div class="w3-sidebar w3-bar-block my-sidebar-color" style="width:140px">
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<a href="#" class="w3-bar-item w3-button my-sidebar-border-bottom" onclick="showDiv('main_div_panel', 'main_div_basic_inputs'); showDiv('div_panel','div_main_inputs');">
+			<b>BASIC INPUTS</b>
+		</a>
+		<a href="#" class="w3-bar-item w3-button my-sidebar-border-bottom">
+			<b>ASSUMPTIONS</b>
+		</a>
+		<a href="#" class="w3-bar-item w3-button my-sidebar-border-bottom" onclick="showDiv('main_div_panel', 'main_div_cover_sheet'); showDiv('div_panel', 'div_cover_sheet');">
+			<b>COVER SHEET</b>
+		</a>
+		<br/>
+		<br/>
+		<a href="#" class="w3-bar-item w3-button my-sidebar-border-bottom" onclick="showDiv('main_div_panel', 'div_permutation'); showDiv('div_panel', 'div_target_rop')">
+			<b>PERMUTATION</b>
+		</a>
+		<!-- <br/>
+		<br/> -->
+		<!-- <a href="#" class="w3-bar-item w3-button my-sidebar-border-bottom" onclick="showDiv('main_div_panel', 'div_output'); showDiv('div_panel','div_output');">
+			<b>OUTPUT</b>
+		</a> -->
+		<!-- <br/> -->
+	</div>
+
+	<!-- main_div_panel -->
+
+	<div style="margin-left:140px" class="main_div_panel" id="main_div_basic_inputs">
+		<header class="w3-container main-title">
+			<h2>
+				<b>Basic Inputs</b>
+			</h2>
+		</header>
+
+		<div class="main-tab">
+			<a href="#" class="w3-bar-item w3-button" onclick="showDiv('div_panel','div_main_inputs')">Main Inputs</a>
+			<a href="#" class="w3-bar-item w3-button" onclick="showDiv('div_panel','div_hole_casing_summary')">Hole/Casing Summary</a>
+			<a href="#" class="w3-bar-item w3-button" onclick="showDiv('div_panel','div_drilling_schedule')">Drilling Schedule</a>
+			<a href="#" class="w3-bar-item w3-button" onclick="showDiv('div_panel','div_other_inputs')" style="float:right;"><i class="fas fa-bars"></i></a>
+		</div>
+
+		<div id="div_main_inputs" class="w3-container div_panel">
+			<div class="container right-menu">
+				<div class="ld ld-hourglass ld-spin-fast" id="load-page-main"></div>
+				<button class="button-computation" id="compute_target_rop_etc" onclick="computeAllBaseline()">Compute</button>
+			</div>
+			<div align="left" class="table-title">
+				Casing Depth, Drilling/Flat Days, Cement Plug and Top Job
+			</div>
+			<div class="container">
+				<table class = "edc_table" border=1px class="w3-round" id="casing_depth"></table>
+			</div>
+			<div align="left" class="footnote">
+				<sup>1</sup> values in meters
+				<br/>
+				<sup>2,3</sup> values in days
+				<br/>
+			</div>
+			<div align="left" class="table-title">
+				Other Basic Inputs
+			</div>
+			<div class="container">
+				<div align="left">
+					<table class = "edc_table" border=1px id="other_inputs"></table>
+				</div>
+				&nbsp;&nbsp;&nbsp;
+				<div align=right>
+					<table class = "edc_table" border=1px id="inputs_1"></table>
+				</div>
+			</div>
+			<div align="left" class="footnote">
+				<sup>1</sup> aerated phases
+				<br/>
+				<sup>2</sup> computed values
+				<br/>
+			</div>
+			<div align="left" class="table-title">
+				Rockbits Input
+			</div>
+			<div class="container">
+				<table class="edc_table" border=1px id="rockbits_input"></table>
+			</div>
+			<br/>
+		</div>
+
+		<!--  -->
+
+		<div id="div_hole_casing_summary" class="w3-container div_panel">
+			<!-- <div class="container right-menu">
+				<div class="ld ld-hourglass ld-spin-fast" id="load-page-hole-casing-summary"></div>
+				<button class="button-computation" id="compute-hole-casing-summary" onclick="holeCasing()">Compute</button>
+			</div> -->
+			<div align="left" class="table-title">
+				Hole and Casing Summary
+			</div>
+			<div class="container">
+				<table class = "edc_table" border=1px id="hole_casing_summary"></table>
+			</div>
+			<div align="left" class="footnote">
+				<sup>1,2,3,4,6</sup> values in meters
+				<br/>
+				<sup>5</sup> values in inches
+			</div>
+			<br/>
+		</div>
+
+		<!--  -->
+
+		<div id="div_drilling_schedule" class="w3-container div_panel">
+			<div align="left" class="table-title">
+				Drilling Schedule with Corresponding Cost Per Day
+			</div>
+			<div class="container">
+				<table class = "edc_table" border=1px id="drilling_schedule"></table>
+			</div>
+			<div class="container chart">
+				<canvas id="chart-header" width="100%" height="80%"></canvas>
+			</div>
+		</div>
+
+		<!--  -->
+
+		<div id="div_other_inputs" class="w3-container div_panel">
+			<div align="left" class="table-title">
+				Hole and Casing Assumptions
+			</div>
+			<div class="container">
+				<table class = "edc_table" border=1px id="hole_case_asmpt"></table>
+			</div>
+			<div align="left" class="footnote">
+					<sup>1</sup> Hole
+					<br/>
+					<sup>2</sup> Case
+					<br/>
+				</div>
+			<div align="left" class="table-title">
+				Other Hole and Casing Assumptions
+			</div>
+			<div class="container">
+				<table class = "edc_table" border=1 px id="other_hole_case_asmpt"></table>
+			</div>
+			<div align="left" class="table-title">
+				Casing ID Assumptions
+			</div>
+			<div class="container">
+				<table class = "edc_table" border=1 px id="casing_id"></table>
+			</div>
+			<div align="left" class="table-title">
+				Cement Acid Assumptions
+			</div>
+			<div class="container">
+				<table class = "edc_table" border=1 px id="cement_acid"></table>
+			</div>
+			<div align="left" class="table-title">
+				TPWSRI RR
+			</div>
+			<div class="container">
+				<table class = "edc_table" border=1 px id="tpwsri"></table>
+			</div>
+			<br/>
+		</div>
+	
+		<!--  -->
+	</div>
+	<!--  -->
+	<div style="margin-left:140px" class="main_div_panel" id="main_div_cover_sheet">
+		<header class="w3-container main-title">
+			<h2>
+				<b>Cover Sheet</b>
+			</h2>
+		</header>
+		<div class="main-tab">
+			<a href="#" class="w3-bar-item w3-button" onclick="showDiv('div_panel','div_cover_sheet');">Cover Sheet</a>
+			<a href="#" class="w3-bar-item w3-button" onclick="showDiv('div_panel','div_cost_details'); rowNames();">Cost Details</a>
+		</div>
+		
+	<div class="w3-container div_panel" id="div_cover_sheet">
+			<div class="container right-menu">
+				<div class="ld ld-hourglass ld-spin-fast" id="load-page-cover-sheet"></div>
+				<button class="button-computation" id="compute-cost-details" onclick="fillTables()">Compute Cost Details</button>
+				<button class="button-computation" id="compute-cover-sheet" onclick="computeCoverSheet()">Compute Cover Sheet</button>
+				<!-- <input id="fileInput" style="display:none;" type="file"/> -->
+				
+				<div class="cost-details-table-type-menu">
+					Export: 
+					<select id="export-table-cover-sheets-cost-details">
+						<option>None</option>
+						<option>Cover Sheet</option>
+						<option>Cost Details</option>
+						<option>IDS Table</option>
+					</select>
+				</div>
+				<!-- <button class="button-computation" id="compute-cover-sheet" onclick="exportCoverSheet();">Export Cover Sheet</button> -->
+
+			</div>
+			<div class="tables-container">
+				<div align="left" class="table-title">
+					Materials and Supplies
+				</div>
+				<div class="container">
+					<table class = "edc_table" border=1px id="cover_sheet_1"></table>
+				</div>
+				<div class="cover-sheet-subtotal">
+					Total:
+					<span id="materials_total" style="font-weight: bold;" />
+				</div>
+				<div align="left" class="table-title">
+					Purchased Services
+				</div>
+				<div class="container">
+					<table class = "edc_table" border=1px id="cover_sheet_2"></table>
+				</div>
+				<div class="cover-sheet-subtotal">
+					Total:
+					<span id="services_total" style="font-weight: bold;" />
+				</div>
+				<div align="left" class="table-title">
+					Rig Allocated Charges
+				</div>
+				<div class="container">
+					<table class = "edc_table" border=1px id="cover_sheet_3"></table>
+				</div>
+				<div class="cover-sheet-subtotal">
+					Total:
+					<span id="rig_allocated_total" style="font-weight: bold;" />
+				</div>
+				<br/>
+				<div class="cover-sheet-total">
+					Overall Total:
+					<span id="total" style="font-weight: bold;" />
+				</div>
+			</div>
+		</div>
+
+		<div id="div_cost_details" class="w3-container div_panel">
+				
+			<div class="container right-menu">
+				<!-- <button class="button-computation" id="compute-cost-qty" onclick="computeCostQty()" title="Computes Costs and Quantities">Compute</button> -->
+				
+				<div class="cost-details-table-type-menu">
+					Filter By Table Type: 
+					<select onchange="filterCostDetails(this)">
+						<option> All </option>
+						<option> Quantity </option>
+						<option> Cost </option>
+					</select>
+				</div>
+
+				<div class="cost-details-table-type-menu">
+					Filter By Table: 
+					<select onchange="filterCostDetailsByValue(this)">
+						<option id="all"> All </option>
+						<option id="by_fuel"> Fuel </option>
+						<option id="by_lubricant"> Lubricant </option>
+						<option id="by_mud_chemicals"> Mud and Chemicals </option>
+						<option id="by_cement"> Cement and Additives </option>
+						<option id="by_rockbits"> Rockbits  </option>
+						<option id="by_drilling_supplies"> Drilling Supplies  </option>
+						<option id="by_casing"> Casing and Wellhead   </option>
+						<option id="by_wellhead"> Wellhead   </option>
+					</select>		
+				</div>
+
+				<div class="cost-details-table-type-menu">
+					Filter By Cost Details Type: 
+					<select onchange="filterCostDetailsByValue(this)">
+						<option id="all"> Detailed </option>
+						<option id="by_fuel"> Rig </option>
+					</select>		
+				</div>
+			</div>
+			
+			<div class="tables-container">
+
+				<div class="by_fuel by_qty">
+					<div align="left" class="table-title">
+						Fuel Quantity
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="fuel_cost_details_qty"></table>
+					</div>
+					<div align="left" class="footnote">
+						<sup>1</sup> liters per day
+					</div>
+				</div>
+				
+				<div class="by_fuel by_cost">
+					<div align="left" class="table-title">
+						Fuel Cost
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="fuel_cost_details_cost"></table>
+					</div>
+					<div align="left" class="footnote">
+						<sup>1</sup> liters per day
+					</div>
+				</div>
+				
+				<div class="by_lubricant by_cost">
+					<div align="left" class="table-title">
+						Lubricants Cost
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="lubricant_cost_details_cost"></table>
+					</div>
+				</div>
+				
+				<div class="by_mud_chemicals by_qty">
+					<div align="left" class="table-title">
+						Mud and Chemicals Quantity
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="mud_chemicals_cost_details_qty"></table>
+					</div>
+				</div>
+				
+				<div class="by_mud_chemicals by_cost">
+					<div align="left" class="table-title">
+						Mud and Chemicals Cost
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="mud_chemicals_cost_details_cost"></table>
+					</div>
+				</div>
+				
+				<div class="by_cement by_qty">
+					<div align="left" class="table-title">
+						Cement and Additives Quantity
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="cement_cost_details_qty"></table>
+					</div>
+				</div>
+				
+				<div class="by_cement by_cost">
+					<div align="left" class="table-title">
+						Cement and Additives Cost
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="cement_cost_details_cost"></table>
+					</div>
+				</div>
+				
+				<div class="by_rockbits by_cost">
+					<div align="left" class="table-title">
+						Rockbits Smith
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="rockbits_cost_details_smith_cost"></table>
+					</div>
+					<div align="left" class="footnote">
+						<sup>1</sup> in Php
+					</div>
+				</div>
+					
+				<div class="by_rockbits by_cost">
+					<div align="left" class="table-title">
+						Rockbits Hughes
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="rockbits_cost_details_hughes_cost"></table>
+					</div>
+					<div align="left" class="footnote">
+						<sup>1</sup> in Php
+					</div>
+				</div>
+			
+				<div class="by_drilling_supplies by_qty">
+					<div align="left" class="table-title">
+						Drilling Supplies Quantity
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="drilling_supplies_cost_details_qty"></table>
+					</div>
+				</div>
+					
+				<div class="by_drilling_supplies by_cost">
+					<div align="left" class="table-title">
+						Drilling Supplies Cost
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="drilling_supplies_cost_details_cost"></table>
+					</div>
+				</div>
+			
+				<div class="by_casing by_qty">
+					<div align="left" class="table-title">
+						Casing Quantity
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="casing_cost_details_qty"></table>
+					</div>
+				</div>
+					
+				<div class="by_casing by_cost">
+					<div align="left" class="table-title">
+						Casing Cost
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="casing_cost_details_cost"></table>
+					</div>
+				</div>
+				
+				<div class="by_wellhead by_qty">
+					<div align="left" class="table-title">
+						Wellhead Quantity
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="wellhead_cost_details_qty"></table>
+					</div>
+				</div>
+					
+				<div class="by_wellhead by_cost">
+					<div align="left" class="table-title">
+						Wellhead Cost
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="wellhead_cost_details_cost"></table>
+					</div>
+				</div>
+
+				<div class="by_cementing_services by_qty">
+					<div align="left" class="table-title">
+						Cementing Services Quantity
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="cementing_services_cost_details_qty"></table>
+					</div>
+				</div>
+
+				<div class="by_cementing_services by_cost">
+					<div align="left" class="table-title">
+						Cementing Services Cost
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="cementing_services_cost_details_cost"></table>
+					</div>
+				</div>
+
+				<div class="by_directional_drilling by_qty">
+					<div align="left" class="table-title">
+						Directional Drilling Quantity
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="directional_drilling_cost_details_qty"></table>
+					</div>
+				</div>
+
+				<div class="by_directional_drilling by_cost">
+					<div align="left" class="table-title">
+						Directional Drilling Cost
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="directional_drilling_cost_details_cost"></table>
+					</div>
+				</div>
+
+				<div class="by_mud_engineering by_qty">
+					<div align="left" class="table-title">
+						Mud Engineering Quantity
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="mud_engineering_qty"></table>
+					</div>
+				</div>
+
+				<div class="by_mud_engineering by_cost">
+					<div align="left" class="table-title">
+						Mud Engineering Cost
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="mud_engineering_cost"></table>
+					</div>
+				</div>
+
+				<div class="by_aerated_drilling by_qty">
+					<div align="left" class="table-title">
+						Aerated Drilling Quantity
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="aerated_drilling_qty"></table>
+					</div>
+				</div>
+
+				<div class="by_aerated_drilling by_cost">
+					<div align="left" class="table-title">
+						Aerated Drilling Cost
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="aerated_drilling_cost"></table>
+					</div>
+				</div>
+
+				<div class="by_jars_and_shock by_qty">
+					<div align="left" class="table-title">
+						Jars and Shock Quantity
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="jars_and_shock_qty"></table>
+					</div>
+				</div>
+
+				<div class="by_jars_and_shock by_cost">
+					<div align="left" class="table-title">
+						Jars and Shock Cost
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="jars_and_shock_cost"></table>
+					</div>
+				</div>
+				
+				<div class="by_chf_installation by_qty">
+					<div align="left" class="table-title">
+						CHF Installation and NDT Inspection Quantity
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="chf_installation_qty"></table>
+					</div>
+				</div>
+
+				<div class="by_chf_installation by_cost">
+					<div align="left" class="table-title">
+						CHF Installation and NDT Inspection Cost
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="chf_installation_cost"></table>
+					</div>
+				</div>
+
+				<div class="by_mud_logging_services by_qty">
+					<div align="left" class="table-title">
+						Mud Logging Services Quantity
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="mud_logging_services_qty"></table>
+					</div>
+				</div>
+
+				<div class="by_mud_logging_services by_cost">
+					<div align="left" class="table-title">
+						Mud Logging Services Cost
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="mud_logging_services_cost"></table>
+					</div>
+				</div>
+
+				<div class="by_casing_running_services by_qty">
+					<div align="left" class="table-title">
+						Casing Running Services Quantity
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="casing_running_services_qty"></table>
+					</div>
+				</div>
+
+				<div class="by_casing_running_services by_cost">
+					<div align="left" class="table-title">
+						Casing Running Services Cost
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="casing_running_services_cost"></table>
+					</div>
+				</div>
+
+				<div class="by_drilling_rig_services by_cost">
+					<div align="left" class="table-title">
+						Drilling Rig Services Cost
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="drilling_rig_services_cost"></table>
+					</div>
+				</div>
+
+				<div class="by_drill_pipes by_qty">
+					<div align="left" class="table-title">
+						Drill Pipes Quantity
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="drill_pipes_qty"></table>
+					</div>
+				</div>
+
+				<div class="by_drill_pipes by_cost">
+					<div align="left" class="table-title">
+						Drill Pipes Cost
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="drill_pipes_cost"></table>
+					</div>
+				</div>
+
+				<div class="by_completion_test by_qty">
+					<div align="left" class="table-title">
+						Completion Test Quantity
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="completion_test_qty"></table>
+					</div>
+				</div>
+
+				<div class="by_completion_test by_cost">
+					<div align="left" class="table-title">
+						Completion Test Cost
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="completion_test_cost"></table>
+					</div>
+				</div>
+
+				<div class="by_other_cementing_services by_qty">
+					<div align="left" class="table-title">
+						Other Cementing Services Quantity
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="other_cementing_services_qty"></table>
+					</div>
+				</div>
+
+				<div class="by_other_cementing_services by_cost">
+					<div align="left" class="table-title">
+						Other Cementing Services Cost
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="other_cementing_services_cost"></table>
+					</div>
+				</div>
+
+				<div class="by_handling_hauling by_cost">
+					<div align="left" class="table-title">
+						Handling Hauling Towing Costs
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="handling_hauling_cost"></table>
+					</div>
+				</div>
+
+				<div class="by_equipmental_rental by_qty">
+					<div align="left" class="table-title">
+						Equipmental Rental Quantity
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="equipmental_rental_qty"></table>
+					</div>
+				</div>
+
+				<div class="by_equipmental_rental by_cost">
+					<div align="left" class="table-title">
+						Equipmental Rental Cost
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="equipmental_rental_cost"></table>
+					</div>
+				</div>
+
+				<div class="by_rig_allocated_charges by_cost">
+					<div align="left" class="table-title">
+						Rig Allocated Charges Cost
+					</div>
+					<div class="container">
+						<table class = "edc_table cost-details-table" border=1px id="rig_allocated_charges_cost"></table>
+					</div>
+				</div>
+				<br/>
+				<br/>
+				<br/>
+			</div>
+		</div>
+	</div>
+
+	<!--  -->
+
+	<div style="margin-left:140px" class="main_div_panel" id="div_permutation">
+		<header class="w3-container main-title">
+			<h2>
+				<b>Permutation Analysis</b>
+			</h2>
+		</header>
+		<div class="main-tab">
+			<a href="#" class="w3-bar-item w3-button" onclick="showDiv('div_panel', 'div_target_rop');">ROP</a>
+			<a href="#" class="w3-bar-item w3-button" onclick="showDiv('div_panel', 'div_casing_depth');">Casing Depth</a>
+		</div>
+		<div class="w3-container div_panel" id="div_target_rop">
+			<div class="container right-menu">
+				<!-- <button class="button-computation" id="compute_permutation_btn">Compute Permutation</button> -->
+				<select id="run-option" style="float:right; margin-left: 15px;">
+					<option>All</option>
+					<option>Given</option>
+				</select>
+				<button class="button-computation" id="compute-afe-costs" onclick="computeAFECosts()">Compute AFE Costs</button>
+				<button class="button-computation" id="compute-baseline-days" onclick="computeBaseDaysROP()">Compute Baseline Days</button>
+				<button class="button-computation" id="compute-baseline-rop" onclick="computeBaslineROP()">Compute Baseline ROP</button>
+				<div class="ld ld-hourglass ld-spin-fast" id="load-page-permutation"></div>
+				<!-- <input id="fileInput" style="display:none;" type="file"/> -->
+			</div>
+			<div class="tables-container">
+				<div class="container-inline-wrapper">
+					<div align="left">
+						<div align="left" class="table-title" id="analysis-base-rop-title">
+							Casing Depth
+						</div>
+						<div class="container-inline-left">
+							<table class="edc_table" border=1px id="analysis-base-rop"></table>
+						</div>
+					</div>
+					&nbsp;&nbsp;&nbsp;
+					<div align="right">
+						<div align="left" class="table-title" id="analysis-base-rop-inc-title">
+							ROP per Section
+						</div>
+						<div class="container-inline-right">
+							<table class = "edc_table" border=1px id="analysis-base-rop-inc"></table>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="output-separator">
+				<div class="boxed-title-wrapper">
+					<span class="boxed-title">Output of the Analysis</span>
+				</div>
+				<div class="with-top-border"></div>
+				<div class="tables-container">
+					<div class="container-inline-wrapper">
+						<div align="left">
+							<div align="left" class="table-title" id="analysis-base-rop-days-title">
+								Baseline Days
+							</div>
+							<div class="container-inline-left">
+								<table class="edc_table" border=1px id="analysis-base-rop-days"></table>
+							</div>
+							<div class="container-inline-left">
+								<table class="edc_table" border=1px id="analysis-base-rop-given"></table>
+							</div>
+						</div>
+						&nbsp;&nbsp;&nbsp;
+						<div align="right">
+							<div align="left" class="table-title" id="analysis-rop-afe-title">
+								Top AFE Cost
+							</div>
+							<div class="container-inline-right">
+								<table class="edc_table" border=1px id="analysis-rop-afe"></table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br/>
+		</div>
+		<div class="w3-container div_panel" id="div_casing_depth">
+			<div class="container right-menu">
+				<!-- <button class="button-computation" id="compute_permutation_btn">Compute Permutation</button> -->
+				<select id="run-option-casing" style="float:right; margin-left: 15px;">
+					<option>All</option>
+					<option>Given</option>
+				</select>
+				<button class="button-computation" id="compute-afe-costs-casing" onclick="computeAFECosts(type = 'cd')">Compute AFE Costs</button>
+				<button class="button-computation" id="compute-baseline-days-casing" onclick="computeBaseDaysDepth()">Compute Baseline Days</button>
+				<button class="button-computation" id="compute-increment-depths" onclick="incrementDepth()">Increment Depths</button>
+				<div class="cost-details-table-type-menu">
+					ROP per Section<sup>1</sup>: 
+					<select id="change-rop">
+						<option id="rop-b"> ROP<sub>b</sub></option>
+						<option id="rop-1"> ROP<sub>1</sub></option>
+						<option id="rop-2"> ROP<sub>2</sub></option>
+						<option id="rop-3"> ROP<sub>3</sub></option>
+					</select>		
+				</div>
+				<div class="ld ld-hourglass ld-spin-fast" id="load-page-permutation-casing"></div>
+				<!-- <input id="fileInput" style="display:none;" type="file"/> -->
+			</div>
+			<div class="tables-container">
+				<div class="container-inline-wrapper" style="margin: 0 0 15px 0;">
+					<div align="left">
+						<div align="left" class="table-title" id="analysis-base-cd-title">
+							Casing Depth
+						</div>
+						<div class="container-inline-left">
+							<table class="edc_table" border=1px id="analysis-base-cd"></table>
+						</div>
+					</div>
+					&nbsp;&nbsp;&nbsp;
+					<div align="right">
+						<div align="left" class="table-title" id="analysis-base-cd-inc-title">
+							Casing Depth Increments
+						</div>
+						<div class="container-inline-right">
+							<table class = "edc_table" border=1px id="analysis-base-cd-inc"></table>
+						</div>
+					</div>
+				</div>
+				<div align="left" class="footnote">
+					<sup>1</sup> These are the incremented ROP per section from the ROP tab.
+				</div>
+			</div>
+
+			<div class="output-separator">
+				<div class="boxed-title-wrapper">
+					<span class="boxed-title">Output of the Analysis</span>
+				</div>
+				<div class="with-top-border"></div>
+				<div class="tables-container">
+					<div class="container-inline-wrapper">
+						<div align="left">
+							<div align="left" class="table-title" id="analysis-base-cd-days-title">
+								Baseline Days
+							</div>
+							<div class="container-inline-left">
+								<table class="edc_table" border=1px id="analysis-base-cd-days"></table>
+							</div>
+							<div class="container-inline-left">
+								<table class="edc_table" border=1px id="analysis-base-casing-given"></table>
+							</div>
+						</div>
+						&nbsp;&nbsp;&nbsp;
+						<div align="right">
+							<div align="left" class="table-title" id="analysis-cd-afe-title">
+								Top AFE Cost
+							</div>
+							<div class="container-inline-right">
+								<table class="edc_table" border=1px id="analysis-cd-afe"></table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br/>
+		</div>
+	</div>
+	<div style="margin-left:140px" class="main_div_panel div_panel" id="div_output">
+		<header class="w3-container main-title">
+			<h2>
+				<b>Output</b>
+			</h2>
+		</header>
+		<div id="div_permutation_table" class="w3-container">
+			<div class="container right-menu">
+				<div class="ld ld-hourglass ld-spin-fast" id="load-page-permutation"></div>
+			</div>
+			<div align="left" class="table-title">
+				Changing Surface ROP
+			</div>
+			<div class="container">
+				<table border=1px class = "output_tab" id="output-surface"></table>
+			</div>
+			<div align="left" class="table-title">
+				Changing Intermediate ROP
+			</div>
+			<div class="container">
+				<table border=1px class = "output_tab" id="output-intermediate"></table>
+			</div>
+			<div align="left" class="table-title">
+				Changing Production Casing ROP
+			</div>
+			<div class="container">
+				<table border=1px class = "output_tab" id="output-prodn_casing"></table>
+			</div>
+			<div align="left" class="table-title">
+				Changing Production Liner 1 ROP
+			</div>
+			<div class="container">
+				<table border=1px class = "output_tab" id="output-prodn_liner_1"></table>
+			</div>
+			<div align="left" class="table-title">
+				Changing Production Liner 2 ROP
+			</div>
+			<div class="container">
+				<table border=1px class = "output_tab" id="output-prodn_liner_2"></table>
+			</div>	
+		</div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+<table>
+<lubricant_cost_details_cost>
+	<headers>
+		<td>Equipment</td>
+		<td></td>
+		<td>% of Fuel Cost</td>
+		<td>RIGMOVE</td>
+		<td>DSURF</td>
+		<td>FSURF</td>
+		<td>DINTER</td>
+		<td>FINTER</td>
+		<td>DPROD</td>
+		<td>FPROD</td>
+		<td>DPL1</td>
+		<td>FPL1</td>
+		<td>DPL2</td>
+		<td>FPL2</td>	
+		<td>Total Php</td>	
+	</headers>
+	<rows>
+		<tr>
+			<td> Lubricant (Oil, grease, etc.) </td>
+			<td type="input" value="0" id="lubricant-cost-item0"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td><b>Total</b></td>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+	</rows>
+</lubricant_cost_details_cost>
+</table>

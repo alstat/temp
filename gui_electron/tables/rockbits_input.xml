@@ -1,0 +1,266 @@
+<table>
+<rockbits_input>
+    <headers>
+        <td>Rockbits</td>
+        <td>Description</td>
+        <td>Smith</td>
+        <td>Qty</td>
+        <td>Hughes</td>
+        <td>Qty</td>
+    </headers>
+    <rows>
+        <tr>
+            <td>32"</td>
+            <td>TCI Cutters (3 pcs)</td>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="2" id="rockbits_input_item" type="input"/>
+            <td value="1" id="rockbits_input_item" type="input"/>
+            <td value="2" id="rockbits_input_item" type="input"/>
+        </tr>
+        
+        <tr>
+            <td>26" x Tricone</td>
+            <td>IADC Code 515</td>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="9" id="rockbits_input_item" type="input"/>
+            <td value="1" id="rockbits_input_item" type="input"/>
+            <td value="6" id="rockbits_input_item" type="input"/>
+        </tr>
+
+        <tr>
+            <td>23" x Tricone</td>
+            <td>IADC Code 515</td>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="4" id="rockbits_input_item" type="input"/>
+            <td value="1" id="rockbits_input_item" type="input"/>
+            <td value="7" id="rockbits_input_item" type="input"/>
+        </tr>
+
+        <tr>
+            <td>17 " x Tricone</td>
+            <td>IADC Code 525</td>
+            <td value="1" id="rockbits_input_item" type="input"/>
+            <td value="4" id="rockbits_input_item" type="input"/>
+            <td value="1" id="rockbits_input_item" type="input"/>
+            <td value="19" id="rockbits_input_item" type="input"/>
+        </tr>
+
+        <tr>
+            <td>17 " x Tricone</td>
+            <td>IADC Code 615</td>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="5" id="rockbits_input_item" type="input"/>
+        </tr>
+
+        <tr>
+            <td>12.25 " x PDC</td>
+            <td>PDC BIT</td>
+            <td value="1" id="rockbits_input_item" type="input"/>
+            <td value="16" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="16" id="rockbits_input_item" type="input"/>
+        </tr>
+
+        <tr>
+            <td>12.25 " x Tricone</td>
+            <td>IADC 217</td>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="2" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="3" id="rockbits_input_item" type="input"/>
+        </tr>
+
+        <tr>
+            <td>12.25 " x Tricone</td>
+            <td>IADC 517</td>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+        </tr>
+
+        <tr>
+            <td>12.25 " x Tricone</td>
+            <td>IADC 537</td>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="22" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="1" id="rockbits_input_item" type="input"/>
+        </tr>
+
+
+        <tr>
+            <td>12.25 " x Tricone</td>
+            <td>IADC 547</td>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="2" id="rockbits_input_item" type="input"/>
+        </tr>
+
+        <tr>
+            <td>12.25 " x Tricone</td>
+            <td>IADC 637</td>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="12" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="6" id="rockbits_input_item" type="input"/>
+        </tr>
+
+        <tr>
+            <td>9-7/8 " x PDC</td>
+            <td>PDC Bit</td>
+            <td value="1" id="rockbits_input_item" type="input"/>
+            <td value="18" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="2" id="rockbits_input_item" type="input"/>
+        </tr>
+
+        <tr>
+            <td>9-7/8 " x Tricone</td>
+            <td>IADC 117/217</td>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="4" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+        </tr>
+
+        <tr>
+            <td>9-7/8 " x Tricone</td>
+            <td>IADC 517</td>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="3" id="rockbits_input_item" type="input"/>
+        </tr>
+
+        <tr>
+            <td>9-7/8 " x Tricone</td>
+            <td>IADC 537</td>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="2" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="10" id="rockbits_input_item" type="input"/>
+        </tr>
+
+        <tr>
+            <td>9-7/8 " x Tricone</td>
+            <td>IADC 637</td>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="1" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="3" id="rockbits_input_item" type="input"/>
+        </tr>
+
+        <tr>
+            <td>8.5 " x PDC</td>
+            <td>PDC BIT</td>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="14" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="3" id="rockbits_input_item" type="input"/>
+        </tr>
+
+        <tr>
+            <td>8.5 " x Tricone</td>
+            <td>IADC 117 / 217</td>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="1" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+        </tr>
+
+        <tr>
+            <td>8.5 " x Tricone</td>
+            <td>IADC 637</td>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="9" id="rockbits_input_item" type="input"/>
+        </tr>
+
+        <tr>
+            <td>7-7/8 " x PDC</td>
+            <td>PDC Bit</td>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="4" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+        </tr>
+
+        <tr>
+            <td>7-7/8 " x Tricone</td>
+            <td>IADC 217</td>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="3" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="2" id="rockbits_input_item" type="input"/>
+        </tr>
+
+        <tr>
+            <td>7-7/8 " x Tricone</td>
+            <td>IADC 517</td>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="3" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+        </tr>
+
+        <tr>
+            <td>7-7/8 " x Tricone</td>
+            <td>IADC 537</td>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="1" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+        </tr>
+
+        <tr>
+            <td>7-7/8 " x Tricone</td>
+            <td>IADC 637</td>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+        </tr>
+
+        <tr>
+            <td>6-1/8" x Tricone</td>
+            <td>IADC Code 200/300</td>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="8" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+        </tr>
+
+        <tr>
+            <td>6-1/8" x Tricone</td>
+            <td>IADC Code 500/600</td>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+        </tr>
+
+        <tr>
+            <td>6" x Tricone</td>
+            <td>IADC Code 200/300</td>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="3" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+        </tr>
+
+        <tr>
+            <td>6" x Tricone</td>
+            <td>IADC Code 500/600</td>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="2" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+            <td value="" id="rockbits_input_item" type="input"/>
+        </tr>
+    </rows>
+</rockbits_input>
+</table>

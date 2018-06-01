@@ -1,0 +1,103 @@
+<table>
+
+<hole_casing_summary>
+<headers>
+		<td> Phase </td>
+		<td> Hole Size<sup>1</sup></td>
+		<td> Casing Size<sup>2</sup></td>
+		<td> Hole Depth<sup>3</sup></td>
+		<td> Casing Depth<sup>4</sup></td>
+		<td> Casing ID<sup>5</sup></td>
+		<td> Open Hole Length<sup>6</sup></td>
+		<td> Acid Section </td>		
+		
+</headers>
+		
+	<rows>
+	
+		<tr>
+			<td> Surface </td>
+			<td value="32" id="sh-hole-size" type="input"/>
+			<td value="26" id="sh-case-size" type="input"/>
+			<td value="103" id="sh-hole-depth" type="input"/>
+			<td value="100" id="sh-case-depth" type="input"/>
+			<td value="24.5" id="sh-case-id" type="input"/>
+			<td value="103" id="sh-hole-length" type="input"/>
+			<td type="values" options="No, Yes" id="sh-acid-section"/>
+		</tr>
+		
+		<tr>
+			<td> Intermediate </td>
+			<td value="23" id="ih-hole-size" type="input"/>
+			<td value="18.625" id="ih-case-size" type="input"/>
+			<td value="403" id="ih-hole-depth" type="input"/>
+			<td value="400" id="ih-case-depth" type="input"/>
+			<td value="17.47" id="ih-case-id" type="input"/>
+			<td value="300" id="ih-hole-length" type="input"/>
+			<td type="values" options="No, Yes" id="ih-acid-section"/>
+		</tr>
+		
+		<tr>
+			<td> Production Casing </td>
+			<td value="17" id="dh-hole-size" type="input"/>
+			<td value="13.375" id="dh-case-size" type="input"/>
+			<td value="703" id="dh-hole-depth" type="input"/>
+			<td value="700" id="dh-case-depth" type="input"/>
+			<td value="12.42" id="dh-case-id" type="input"/>
+			<td value="300" id="dh-hole-length" type="input"/>
+			<td type="values" options="No, Yes" id="dh-acid-section"/>
+		</tr>
+
+				
+		<tr>
+			<td> Production Liner 1 </td>
+			<td value="12.25" id="ph1-hole-size" type="input"/>
+			<td value="10.75" id="ph1-case-size" type="input"/>
+			<td value="1800" id="ph1-hole-depth" type="input"/>
+			<td value="1800" id="ph1-case-depth" type="input"/>
+			<td value="10.05" id="ph1-case-id" type="input"/>
+			<td value="1097" id="ph1-hole-length" type="input"/>
+			<td type="values" options="No, Yes" id="ph1-acid-section"/>
+		</tr>
+		
+		
+				
+		<tr>
+			<td> Production Liner 2 </td>
+			<td value="27" id="ph2-hole-size" type="input"/>
+			<td value="23.375" id="ph2-case-size" type="input"/>
+			<td value="703" id="ph2-hole-depth" type="input"/>
+			<td value="700" id="ph2-case-depth" type="input"/>
+			<td value="22.32" id="ph2-case-id" type="input"/>
+			<td value="300" id="ph2-hole-length" type="input"/>
+			<td type="values" options="No, Yes" id="ph2-acid-section"/>
+		</tr>
+		
+		
+		<tr>
+			<td> Production Liner 3 </td>
+			<td value="0" id="ph3-hole-size" type="input"/>
+			<td value="0" id="ph3-case-size" type="input"/>
+			<td value="0" id="ph3-hole-depth" type="input"/>
+			<td value="0" id="ph3-case-depth" type="input"/>
+			<td value="0" id="ph3-case-id" type="input"/>
+			<td value="0" id="ph3-hole-length" type="input"/>
+			<td type="values" options="No, Yes" id="ph3-acid-section"/>
+		</tr>
+		
+		<tr>
+			<td> Reline </td>
+			<td value="0" id="reline-hole-size" type="input"/>
+			<td options="9.625, 7, 5" id="reline-case-size" type="values"/>
+			<td options="12.415, 10.05, 8.755, 6.276" id="reline-hole-depth" type="values"/>
+			<td value="0" id="reline-case-depth" type="input"/>
+			<td value="0" id="reline-case-id" type="input"/>
+			<td value="0" id="reline-hole-length" type="input"/>
+			<td type="values" options="No, Yes" id="reline-acid-section"/>
+		</tr>
+		
+		</rows>
+
+</hole_casing_summary>
+
+</table>

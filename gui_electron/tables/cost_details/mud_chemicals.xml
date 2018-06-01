@@ -1,0 +1,460 @@
+<table>
+
+<mud_chemicals_cost_details_qty>
+	<headers>
+		<td>Quantities</td>
+		<td></td>
+		<td>Unit</td>
+		<td>RIGMOVE</td>
+		<td>DSURF</td>
+		<td>FSURF</td>
+		<td>DINTER</td>
+		<td>FINTER</td>
+		<td>DPROD</td>
+		<td>FPROD</td>
+		<td>DPL1</td>
+		<td>FPL1</td>
+		<td>DPL2</td>
+		<td>FPL2</td>	
+		<td>Total</td>	
+		
+	</headers>
+	<rows>
+		<tr>
+			<td> ALUMINUM STEARATE </td>
+			<td></td>
+			<td> 10 kg bag </td>
+		<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> BENTONITE API </td>
+			<td></td>
+			<td> 1MT BB </td>
+		<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> Caustic Soda </td>
+			<td></td>
+			<td> 25 kg bag	</td>
+		<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> CMC TECH LV </td>
+			<td></td>
+			<td> 25 kg bag </td>
+		<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> CONQOR 202-B</td>
+			<td></td>
+			<td> 55 gal dr </td>
+		<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> CONQOR 303 A </td>
+			<td></td>
+			<td> 55 gal dr </td>
+		<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> CONQOR 404 </td>
+			<td></td>
+			<td> 55 gal dr </td>
+		<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> DEFOAM-A </td>
+			<td></td>
+			<td> 55 gal dr </td>
+		<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> DUOVIS </td>
+			<td></td>
+			<td> 25 kg bag </td>
+		<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> KLA-GARD </td>
+			<td></td>
+			<td>55 gal dr</td>
+		<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> Lube 167 </td>
+			<td></td>
+			<td> 55 gal dr </td>
+		<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> M-I PAC R </td>
+			<td></td>
+			<td> 25 kg bag </td>
+		<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> OS-1 </td>
+			<td></td>
+			<td> 25 kg bag </td>
+		<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> OS-1L </td>
+			<td></td>
+			<td> 5 gal can </td>
+		<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> POLYPAC R </td>
+			<td></td>
+			<td> 25 kg bag </td>
+		<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> POLYPAC UL </td>
+			<td></td>
+			<td> 25 kg bag </td>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> POLY-PLUS </td>
+			<td></td>
+			<td> 5 gal can </td>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> POLY-PLUS DRY </td>
+			<td></td>
+			<td> 25 kg bag </td>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> POLYSAL T </td>
+			<td></td>
+			<td> 25 kg bag </td>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> RESINEX II </td>
+			<td></td>
+			<td> 50 lb bag </td>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> Safe Cor </td>
+			<td></td>
+			<td> 55 gal dr </td>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> SAFE-CIDE </td>
+			<td></td>
+			<td> 25 lt can </td>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> Soda Ash </td>
+			<td></td>
+			<td> 25 kg bag </td>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+	
+		<tr>
+			<td> Sodium Bicarbonate </td>
+			<td></td>
+			<td> 25 kg bag </td>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+	
+		<tr>
+			<td> SP-101 </td>
+			<td></td>
+			<td> 25 kg bag </td>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> TACKLE (liquid) </td>
+			<td></td>
+			<td> 5 gal can </td>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> TACKLE (dry) </td>
+			<td></td>
+			<td> 50 lb bag </td>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+	
+		<tr>
+			<td> TANNATHIN </td>
+			<td></td>
+			<td> 50 lb bag </td>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+	
+		<tr>
+			<td> Zinc Carbonate </td>
+			<td></td>
+			<td> 25 kg bag </td>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+	</rows>
+</mud_chemicals_cost_details_qty>
+	
+
+<mud_chemicals_cost_details_cost>
+	<headers>
+		<td>Quantities</td>
+		<td></td>
+		<td>Cost</td>
+		<td>RIGMOVE</td>
+		<td>DSURF</td>
+		<td>FSURF</td>
+		<td>DINTER</td>
+		<td>FINTER</td>
+		<td>DPROD</td>
+		<td>FPROD</td>
+		<td>DPL1</td>
+		<td>FPL1</td>
+		<td>DPL2</td>
+		<td>FPL2</td>	
+		<td>Total</td>		
+		
+	</headers>
+	<rows>
+		<tr>
+			<td> ALUMINUM STEARATE </td>
+			<td></td>
+			<td type="input" value="42.25" id="mudchemicals-cost-item0"/>
+				<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> BENTONITE API </td>
+			<td></td>
+			<td type="input" value="187.86" id="mudchemicals-cost-item1"/>
+					<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> Caustic Soda </td>
+			<td></td>
+			<td type="input" value="16.94" id="mudchemicals-cost-item2"/>
+		<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> CMC TECH LV </td>
+			<td></td>
+			<td type="input" value="64.91" id="mudchemicals-cost-item3"/>
+		<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> CONQOR 202-B</td>
+			<td></td>
+			<td type="input" value="1024.80" id="mudchemicals-cost-item4"/>
+		<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> CONQOR 303 A </td>
+			<td></td>
+			<td type="input" value="397.39" id="mudchemicals-cost-item5"/>
+		<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> CONQOR 404 </td>
+			<td></td>
+			<td type="input" value="1295.94" id="mudchemicals-cost-item6"/>
+		<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> DEFOAM-A </td>
+			<td></td>
+			<td type="input" value="84.71" id="mudchemicals-cost-item7"/>
+		<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> DUOVIS </td>
+			<td></td>
+			<td type="input" value="60.76" id="mudchemicals-cost-item8"/>
+		<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> KLA-GARD </td>
+			<td></td>
+			<td type="input" value="754.38" id="mudchemicals-cost-item9"/>
+		<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> Lube 167 </td>
+			<td></td>
+			<td type="input" value="781.35" id="mudchemicals-cost-item10"/>
+		<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> M-I PAC R </td>
+			<td></td>
+			<td type="input" value="73.68" id="mudchemicals-cost-item11"/>
+		<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> OS-1 </td>
+			<td></td>
+			<td type="input" value="85.00" id="mudchemicals-cost-item12"/>
+		<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> OS-1L </td>
+			<td></td>
+			<td type="input" value="41.96" id="mudchemicals-cost-item13"/>
+		<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> POLYPAC R </td>
+			<td></td>
+			<td type="input" value="73.68" id="mudchemicals-cost-item14"/>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> POLYPAC UL </td>
+			<td></td>
+			<td type="input" value="66.22" id="mudchemicals-cost-item15"/>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> POLY-PLUS </td>
+			<td></td>
+			<td type="input" value="66.58" id="mudchemicals-cost-item16"/>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> POLY-PLUS DRY </td>
+			<td></td>
+			<td type="input" value="148.75" id="mudchemicals-cost-item17"/>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> POLYSAL T </td>
+			<td></td>
+			<td type="input" value="38.34" id="mudchemicals-cost-item18"/>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> RESINEX II </td>
+			<td></td>
+			<td type="input" value="63.99" id="mudchemicals-cost-item19"/>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> Safe Cor </td>
+			<td></td>
+			<td type="input" value="397.39" id="mudchemicals-cost-item20"/>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> SAFE-CIDE </td>
+			<td></td>
+			<td type="input" value="85.08" id="mudchemicals-cost-item21"/>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> Soda Ash </td>
+			<td></td>
+			<td type="input" value="15.55" id="mudchemicals-cost-item22"/>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+	
+		<tr>
+			<td> Sodium Bicarbonate </td>
+			<td></td>
+			<td type="input" value="15.11" id="mudchemicals-cost-item23"/>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+	
+		<tr>
+			<td> SP-101 </td>
+			<td></td>
+			<td type="input" value="110.33" id="mudchemicals-cost-item24"/>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> TACKLE (liquid) </td>
+			<td></td>
+			<td type="input" value="161.50" id="mudchemicals-cost-item25"/>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> TACKLE (dry) </td>
+			<td></td>
+			<td type="input" value="224.68" id="mudchemicals-cost-item26"/>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+	
+		<tr>
+			<td> TANNATHIN </td>
+			<td></td>
+			<td type="input" value="13.09" id="mudchemicals-cost-item27"/>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+	
+		<tr>
+			<td> Zinc Carbonate </td>
+			<td></td>
+			<td type="input" value="94.73" id="mudchemicals-cost-item28"/>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+	
+		<tr>
+			<td><b>Total</b></td>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+	</rows>
+</mud_chemicals_cost_details_cost>
+
+</table>

@@ -1,0 +1,51 @@
+<table>
+  <output-surface>
+    <headers>
+      <td>Index</td>
+      <td id="surface_output_analysis">AFE Cost</td>
+      <td>Total ROP</td>
+    </headers>	
+    <rows>
+    </rows>
+  </output-surface>
+
+  <output-intermediate>
+    <headers>
+      <td>Index</td> 
+      <td id="intermediate_output_analysis">AFE Cost</td>
+      <td>Total ROP</td>
+    </headers>	
+    <rows>
+    </rows>
+  </output-intermediate>
+
+  <output-prodn_casing>
+    <headers>
+      <td>Index</td> 
+      <td id="prodn_casing_output_analysis">AFE Cost</td>
+      <td>Total ROP</td>
+    </headers>	
+    <rows>
+    </rows>
+  </output-prodn_casing>
+
+  <output-prodn_liner_1>
+    <headers>
+      <td>Index</td> 
+      <td id="prodn_liner_1_output_analysis">AFE Cost</td>
+      <td>Total ROP</td>
+    </headers>	
+    <rows>
+    </rows>
+  </output-prodn_liner_1>
+
+  <output-prodn_liner_2>
+    <headers>
+      <td>Index</td> 
+      <td id="prodn_liner_2_output_analysis">AFE Cost</td>
+      <td>Total ROP</td>
+    </headers>	
+    <rows>
+    </rows>
+  </output-prodn_liner_2>
+</table>

@@ -1,0 +1,167 @@
+{
+    "intermediate": {
+        "drlg_days": {
+            "Scenario 0": {
+                "prodn_liner_1": 6.0,
+                "intermediate": 4.0,
+                "prodn_liner_2": 5.0,
+                "surface": 2.0,
+                "prodn_casing": 10.0
+            },
+            "Scenario 1": {
+                "prodn_liner_1": 6.0,
+                "intermediate": 5.0,
+                "prodn_liner_2": 5.0,
+                "surface": 2.0,
+                "prodn_casing": 10.0
+            },
+            "Scenario 2": {
+                "prodn_liner_1": 6.0,
+                "intermediate": 5.0,
+                "prodn_liner_2": 5.0,
+                "surface": 2.0,
+                "prodn_casing": 10.0
+            },
+            "Scenario 3": {
+                "prodn_liner_1": 6.0,
+                "intermediate": 5.0,
+                "prodn_liner_2": 5.0,
+                "surface": 2.0,
+                "prodn_casing": 10.0
+            }
+        },
+        "afe": [332424000.0, 334802000.0, 334802000.0, 334802000.0]
+    },
+    "prodn-liner-2": {
+        "drlg_days": {
+            "Scenario 0": {
+                "prodn_liner_1": 6.0,
+                "intermediate": 5.0,
+                "prodn_liner_2": 5.0,
+                "surface": 2.0,
+                "prodn_casing": 10.0
+            },
+            "Scenario 1": {
+                "prodn_liner_1": 6.0,
+                "intermediate": 5.0,
+                "prodn_liner_2": 5.0,
+                "surface": 2.0,
+                "prodn_casing": 10.0
+            },
+            "Scenario 2": {
+                "prodn_liner_1": 6.0,
+                "intermediate": 5.0,
+                "prodn_liner_2": 5.0,
+                "surface": 2.0,
+                "prodn_casing": 10.0
+            },
+            "Scenario 3": {
+                "prodn_liner_1": 6.0,
+                "intermediate": 5.0,
+                "prodn_liner_2": 5.0,
+                "surface": 2.0,
+                "prodn_casing": 10.0
+            }
+        },
+        "afe": [334802000.0, 334802000.0, 334802000.0, 334802000.0]
+    },
+    "prodn-casing": {
+        "drlg_days": {
+            "Scenario 0": {
+                "prodn_liner_1": 6.0,
+                "intermediate": 5.0,
+                "prodn_liner_2": 5.0,
+                "surface": 2.0,
+                "prodn_casing": 7.0
+            },
+            "Scenario 1": {
+                "prodn_liner_1": 6.0,
+                "intermediate": 5.0,
+                "prodn_liner_2": 5.0,
+                "surface": 2.0,
+                "prodn_casing": 8.0
+            },
+            "Scenario 2": {
+                "prodn_liner_1": 6.0,
+                "intermediate": 5.0,
+                "prodn_liner_2": 5.0,
+                "surface": 2.0,
+                "prodn_casing": 9.0
+            },
+            "Scenario 3": {
+                "prodn_liner_1": 6.0,
+                "intermediate": 5.0,
+                "prodn_liner_2": 5.0,
+                "surface": 2.0,
+                "prodn_casing": 10.0
+            }
+        },
+        "afe": [326582000.0, 329922000.0, 332399000.0, 334802000.0]
+    },
+    "surface": {
+        "drlg_days": {
+            "Scenario 0": {
+                "prodn_liner_1": 6.0,
+                "intermediate": 5.0,
+                "prodn_liner_2": 5.0,
+                "surface": 2.0,
+                "prodn_casing": 10.0
+            },
+            "Scenario 1": {
+                "prodn_liner_1": 6.0,
+                "intermediate": 5.0,
+                "prodn_liner_2": 5.0,
+                "surface": 2.0,
+                "prodn_casing": 10.0
+            },
+            "Scenario 2": {
+                "prodn_liner_1": 6.0,
+                "intermediate": 5.0,
+                "prodn_liner_2": 5.0,
+                "surface": 2.0,
+                "prodn_casing": 10.0
+            },
+            "Scenario 3": {
+                "prodn_liner_1": 6.0,
+                "intermediate": 5.0,
+                "prodn_liner_2": 5.0,
+                "surface": 2.0,
+                "prodn_casing": 10.0
+            }
+        },
+        "afe": [334802000.0, 334802000.0, 334802000.0, 334802000.0]
+    },
+    "prodn-liner-1": {
+        "drlg_days": {
+            "Scenario 0": {
+                "prodn_liner_1": 5.0,
+                "intermediate": 5.0,
+                "prodn_liner_2": 5.0,
+                "surface": 2.0,
+                "prodn_casing": 10.0
+            },
+            "Scenario 1": {
+                "prodn_liner_1": 6.0,
+                "intermediate": 5.0,
+                "prodn_liner_2": 5.0,
+                "surface": 2.0,
+                "prodn_casing": 10.0
+            },
+            "Scenario 2": {
+                "prodn_liner_1": 6.0,
+                "intermediate": 5.0,
+                "prodn_liner_2": 5.0,
+                "surface": 2.0,
+                "prodn_casing": 10.0
+            },
+            "Scenario 3": {
+                "prodn_liner_1": 6.0,
+                "intermediate": 5.0,
+                "prodn_liner_2": 5.0,
+                "surface": 2.0,
+                "prodn_casing": 10.0
+            }
+        },
+        "afe": [332366000.0, 334802000.0, 334802000.0, 334802000.0]
+    }
+}

@@ -1,0 +1,65 @@
+<table>
+    <completion_test_qty>
+         <headers>
+            <td>Equipment</td>
+            <td>Qty</td>
+            <td>Unit</td>
+            <td>RIGMOVE</td>
+            <td>DSURF</td>
+            <td>FSURF</td>
+            <td>DINTER</td>
+            <td>FINTER</td>
+            <td>DPROD</td>
+            <td>FPROD</td>
+            <td>DPL1</td>
+            <td>FPL1</td>
+            <td>DPL2</td>
+            <td>FPL2</td>		
+            <td>Total</td>
+        </headers>
+        <rows>
+            <tr>
+                <td>Wireline + Survey</td>
+                <td/><td>lot</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>DHV</td>
+                <td/><td>lot</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+        </rows>
+    </completion_test_qty>
+
+    <completion_test_cost>
+         <headers>
+            <td>Equipment</td>
+            <td>Qty</td>
+            <td>Rate</td>
+            <td>RIGMOVE</td>
+            <td>DSURF</td>
+            <td>FSURF</td>
+            <td>DINTER</td>
+            <td>FINTER</td>
+            <td>DPROD</td>
+            <td>FPROD</td>
+            <td>DPL1</td>
+            <td>FPL1</td>
+            <td>DPL2</td>
+            <td>FPL2</td>		
+            <td>Total</td>
+        </headers>
+        <rows>
+            <tr>
+                <td>Wireline + Survey</td>
+                <td/><td type="input" value="2500000.00" id="completion-test-cost-item0"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>DHV</td>
+                <td/><td type="input" value="1100000.00" id="completion-test-cost-item1"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td><b>Total</b></td>
+                <td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+        </rows>
+    </completion_test_cost>
+</table>

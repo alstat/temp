@@ -1,0 +1,82 @@
+<table>
+    <drill_pipes_qty>
+         <headers>
+            <td>Equipment</td>
+            <td>Qty</td>
+            <td>Unit</td>
+            <td>RIGMOVE</td>
+            <td>DSURF</td>
+            <td>FSURF</td>
+            <td>DINTER</td>
+            <td>FINTER</td>
+            <td>DPROD</td>
+            <td>FPROD</td>
+            <td>DPL1</td>
+            <td>FPL1</td>
+            <td>DPL2</td>
+            <td>FPL2</td>		
+            <td>Total</td>
+        </headers>
+        <rows>
+            <tr>
+                <td>Rental of S-135 Pipes</td>
+                <td type="input" value="0" id="drill-pipes-qty-item0"/><td>joint / day</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>Post rental inspection</td>
+                <td type="input" value="0" id="drill-pipes-qty-item1"/><td>per joint</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>Transhipment Cost (Fixed Rate - Import)</td>
+                <td type="input" value="0" id="drill-pipes-qty-item2"/><td>per import</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>Transhipment Cost (Truck Rate - Import)</td>
+                <td type="input" value="0" id="drill-pipes-qty-item3"/><td>per/ truck</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+        </rows>
+    </drill_pipes_qty>
+    
+    <drill_pipes_cost>
+         <headers>
+            <td>Equipment</td>
+            <td></td>
+            <td>Cost</td>
+            <td>RIGMOVE</td>
+            <td>DSURF</td>
+            <td>FSURF</td>
+            <td>DINTER</td>
+            <td>FINTER</td>
+            <td>DPROD</td>
+            <td>FPROD</td>
+            <td>DPL1</td>
+            <td>FPL1</td>
+            <td>DPL2</td>
+            <td>FPL2</td>		
+            <td>Total</td>
+        </headers>
+        <rows>
+            <tr>
+                <td>Rental of S-135 Pipes</td>
+                <td></td><td type="input" value="1.50" id="drill-pipes-cost-item0"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>Post rental inspection</td>
+                <td></td><td type="input" value="47.02" id="drill-pipes-cost-item1"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>Transhipment Cost (Fixed Rate - Import)</td>
+                <td></td><td type="input" value="162.50" id="drill-pipes-cost-item2"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>Transhipment Cost (Truck Rate - Import)</td>
+                <td></td><td type="input" value="65.00" id="drill-pipes-cost-item3"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td><b>Total</b></td>
+                <td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+        </rows>
+    </drill_pipes_cost>
+</table>

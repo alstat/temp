@@ -1,0 +1,123 @@
+<table>
+
+<fuel_cost_details_qty>
+	<headers>
+		<td>Equipment</td>
+		<td>Qty</td>
+		<td>L / D<sup>1</sup></td>
+		<td>RIGMOVE</td>
+		<td>DSURF</td>
+		<td>FSURF</td>
+		<td>DINTER</td>
+		<td>FINTER</td>
+		<td>DPROD</td>
+		<td>FPROD</td>
+		<td>DPL1</td>
+		<td>FPL1</td>
+		<td>DPL2</td>
+		<td>FPL2</td>		
+		<td>Total Liters</td>
+		
+	</headers>
+	<rows>
+		<tr>
+			<td> Rig </td>
+			<td type="input" value="1" id="fuel-qty-item0"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> Air Drilling Equipment </td>
+			<td type="input" value="1" id="fuel-qty-item1"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> Crane </td>
+			<td type="input" value="1" id="fuel-qty-item2"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> Cementing Unit </td>
+			<td type="input" value="1" id="fuel-qty-item3"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> Water Pump </td>
+			<td type="input" value="1" id="fuel-qty-item4"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> Rig Trucks </td>
+			<td type="input" value="1" id="fuel-qty-item5"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> Tower Lights (Genset) </td>
+			<td type="input" value="1" id="fuel-qty-item6"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+	</rows>
+
+</fuel_cost_details_qty>
+
+<fuel_cost_details_cost>
+	<headers>
+		<td>Equipment</td>
+		<td>Cost</td>
+		<td>L / D<sup>1</sup></td>
+		<td>RIGMOVE</td>
+		<td>DSURF</td>
+		<td>FSURF</td>
+		<td>DINTER</td>
+		<td>FINTER</td>
+		<td>DPROD</td>
+		<td>FPROD</td>
+		<td>DPL1</td>
+		<td>FPL1</td>
+		<td>DPL2</td>
+		<td>FPL2</td>	
+		<td>Total Php</td>
+		
+	</headers>
+	<rows>
+		<tr>
+			<td> Rig </td>
+			<td type="input" value="36" id="fuel-cost-item0"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> Air Drilling Equipment </td>
+			<td type="input" value="36" id="fuel-cost-item1"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> Crane </td>
+			<td type="input" value="36" id="fuel-cost-item2"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> Cementing Unit </td>
+			<td type="input" value="36" id="fuel-cost-item3"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> Water Pump </td>
+			<td type="input" value="36" id="fuel-cost-item4"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> Rig Trucks </td>
+			<td type="input" value="36" id="fuel-cost-item5"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> Tower Lights (Genset) </td>
+			<td type="input" value="36" id="fuel-cost-item6"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td><b>Total</b></td>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+	</rows>
+</fuel_cost_details_cost>
+
+</table>

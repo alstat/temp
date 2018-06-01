@@ -1,0 +1,178 @@
+<table>
+    <cementing_services_cost_details_qty>
+        <headers>
+            <td>Equipment</td>
+            <td>Qty</td>
+            <td></td>
+            <td>RIGMOVE</td>
+            <td>DSURF</td>
+            <td>FSURF</td>
+            <td>DINTER</td>
+            <td>FINTER</td>
+            <td>DPROD</td>
+            <td>FPROD</td>
+            <td>DPL1</td>
+            <td>FPL1</td>
+            <td>DPL2</td>
+            <td>FPL2</td>		
+            <td>Total</td>
+        </headers>
+        <rows>
+            <tr>
+                <td> Cementing Primary Equipment </td>
+                <td/>per day<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td> 26" Circulating Swedge </td>
+                <td/>per day<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            
+            <tr>
+                <td> 18 5/8" Circulating Swedge </td>
+                <td/>per day<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td> 20 - 18 5/8" CMT Head </td>
+                <td/>per day<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td> 13 3/8" MST </td>
+                <td/>per day<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+        
+            <tr>
+                <td> 9 5/8" MST </td>
+                <td/>per day<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td> Cement Plug </td>
+                <td/>per job<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td> Top Job </td>
+                <td/>per job<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td> Cementing Casing </td>
+                <td/>per job<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td> Cementing Engineer/Supervisor </td>
+                <td/>per job<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td> Equipment Operator/Helper </td>
+                <td/>per job<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td> Batch Mixer Operator </td>
+                <td/>per job<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td> Toolman(call out) </td>
+                <td/>per job<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+        </rows>
+    </cementing_services_cost_details_qty>
+
+    <cementing_services_cost_details_cost>
+        <headers>
+            <td>Equipment</td>
+            <td></td>
+            <td>Cost</td>
+            <td>RIGMOVE</td>
+            <td>DSURF</td>
+            <td>FSURF</td>
+            <td>DINTER</td>
+            <td>FINTER</td>
+            <td>DPROD</td>
+            <td>FPROD</td>
+            <td>DPL1</td>
+            <td>FPL1</td>
+            <td>DPL2</td>
+            <td>FPL2</td>		
+            <td>Total</td>
+        </headers>
+        <rows>
+            <tr>
+                <td> Cementing Primary Equipment </td>
+                <td/><td type="input" value="0" id="cementing-services-cost-item0"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td> 26" Circulating Swedge </td>
+                <td/><td type="input" value="0" id="cementing-services-cost-item1"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            
+            <tr>
+                <td> 18 5/8" Circulating Swedge </td>
+                <td/><td type="input" value="0" id="cementing-services-cost-item2"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td> 20 - 18 5/8" CMT Head </td>
+                <td/><td type="input" value="0" id="cementing-services-cost-item3"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td> 13 3/8" MST </td>
+                <td/><td type="input" value="0" id="cementing-services-cost-item4"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+        
+            <tr>
+                <td> 9 5/8" MST </td>
+                <td/><td type="input" value="0" id="cementing-services-cost-item5"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td> Cement Plug </td>
+                <td/><td type="input" value="0" id="cementing-services-cost-item6"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td> Top Job </td>
+                <td/><td type="input" value="0" id="cementing-services-cost-item7"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td> Cementing Casing </td>
+                <td/><td type="input" value="0" id="cementing-services-cost-item8"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td> Cementing Engineer/Supervisor </td>
+                <td/><td type="input" value="0" id="cementing-services-cost-item9"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td> Equipment Operator/Helper </td>
+                <td/><td type="input" value="0" id="cementing-services-cost-item10"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td> Batch Mixer Operator </td>
+                <td/><td type="input" value="0" id="cementing-services-cost-item11"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td> Toolman(call out) </td>
+                <td/><td type="input" value="0" id="cementing-services-cost-item12"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td> Total </td>
+                <td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+        </rows>
+    </cementing_services_cost_details_cost>
+</table>

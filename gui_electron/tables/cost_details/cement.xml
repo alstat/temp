@@ -1,0 +1,206 @@
+<table>
+
+<cement_cost_details_qty>
+	<headers>
+		<td>Quantities</td>
+		<td></td>
+		<td>Unit</td>
+		<td>RIGMOVE</td>
+		<td>DSURF</td>
+		<td>FSURF</td>
+		<td>DINTER</td>
+		<td>FINTER</td>
+		<td>DPROD</td>
+		<td>FPROD</td>
+		<td>DPL1</td>
+		<td>FPL1</td>
+		<td>DPL2</td>
+		<td>FPL2</td>	
+		<td>Total</td>	
+		
+	</headers>
+	<rows>
+				<tr>
+			<td> Cement D907 (110lb) </td>
+			<td></td>
+			<td></td>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> Antifoam D047 (gps) </td>
+			<td></td>
+			<td></td>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> Extender D020 (lbs) </td>
+			<td></td>
+			<td></td>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> Dispersant D065 (lbs) </td>
+			<td></td>
+			<td></td>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> Retarder D800 (lbs) </td>
+			<td></td>
+			<td></td>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> Silica D066 (lbs) </td>
+			<td></td>
+			<td></td>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> Micro Silica D155 (gps) </td>
+			<td></td>
+			<td></td>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> Fluid loss D112 (lbs) </td>
+			<td></td>
+			<td></td>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> Retarder, L D197 (gps) </td>
+			<td></td>
+			<td></td>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> Fluid loss D255 (lbs) </td>
+			<td></td>
+			<td></td>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 9 5/8" CBP </td>
+			<td></td>
+			<td></td>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+	</rows>
+</cement_cost_details_qty>
+
+<cement_cost_details_cost>
+	<headers>
+		<td>Quantities</td>
+		<td></td>
+		<td>Cost</td>
+		<td>RIGMOVE</td>
+		<td>DSURF</td>
+		<td>FSURF</td>
+		<td>DINTER</td>
+		<td>FINTER</td>
+		<td>DPROD</td>
+		<td>FPROD</td>
+		<td>DPL1</td>
+		<td>FPL1</td>
+		<td>DPL2</td>
+		<td>FPL2</td>	
+		<td>Total</td>		
+		
+	</headers>
+	<rows>
+		<tr>
+			<td> Cement D907 (110lb) </td>
+			<td></td>
+			<td type="input" value="0" id="cement-additives-cost-item0"/>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> Antifoam D047 (gps) </td>
+			<td></td>
+			<td type="input" value="0" id="cement-additives-cost-item1"/>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> Extender D020 (lbs) </td>
+			<td></td>
+			<td type="input" value="0" id="cement-additives-cost-item2"/>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> Dispersant D065 (lbs) </td>
+			<td></td>
+			<td type="input" value="0" id="cement-additives-cost-item3"/>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> Retarder D800 (lbs) </td>
+			<td></td>
+			<td type="input" value="0" id="cement-additives-cost-item4"/>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> Silica D066 (lbs) </td>
+			<td></td>
+			<td type="input" value="0" id="cement-additives-cost-item5"/>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> Micro Silica D155 (gps) </td>
+			<td></td>
+			<td type="input" value="0" id="cement-additives-cost-item6"/>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> Fluid loss D112 (lbs) </td>
+			<td></td>
+			<td type="input" value="0" id="cement-additives-cost-item7"/>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> Retarder, L D197 (gps) </td>
+			<td></td>
+			<td type="input" value="0" id="cement-additives-cost-item8"/>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> Fluid loss D255 (lbs) </td>
+			<td></td>
+			<td type="input" value="0" id="cement-additives-cost-item9"/>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 9 5/8" CBP </td>
+			<td></td>
+			<td type="input" value="0" id="cement-additives-cost-item10"/>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td><b>Total</b></td>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+	</rows>
+</cement_cost_details_cost>
+
+</table>

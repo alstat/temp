@@ -1,0 +1,562 @@
+<table>
+
+<casing_cost_details_qty>
+	<headers>
+		<td>Quantities</td>
+		<td></td>
+		<td>Unit</td>
+		<td>RIGMOVE</td>
+		<td>DSURF</td>
+		<td>FSURF</td>
+		<td>DINTER</td>
+		<td>FINTER</td>
+		<td>DPROD</td>
+		<td>FPROD</td>
+		<td>DPL1</td>
+		<td>FPL1</td>
+		<td>DPL2</td>
+		<td>FPL2</td>	
+		<td>Total</td>		
+	</headers>
+	<rows>
+		<tr>
+			<td> 26" OD Casing, 203ppf, Grade  X56, LSD </td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 26" FLOAT SHOE, SILI w/ accs.  </td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> 26" x 32" Centralizer, Bow Type   </td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> Corrosion Ring, 4-1/2"IF and 5"X Hole  </td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td>Thread Locking Compound * Baker Lock  </td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>Thread Sealant * Premium Thread Compound</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td>0</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>18-5/8" OD Casing, 114PPF, K55, BTC</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>18-5/8" Float Shoe, BTC</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>18-5/8" Float Collar, 114PPF, BTC SILI w/ accs</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>18-5/8" x 23" Centralizer, Stand-off</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>18-5/8" x 23" Centralizer, Bow Type</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>18-5/8" x 23" Metal Petal Basket</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>Corrosion Ring, 4-1/2"IF &amp; 5"X Hole</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>Thread Locking Compound * Baker Lock</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>Thread Sealant * Premium Thread Compound</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>13-3/8" OD Casing; 68 PPF, Grade L80, BTC</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>13-3/8" Float Shoe; 68ppf, BTC</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>13-3/8" Float Collar, 68ppf, BTC</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>13-3/8" x 18-5/8" Liner Hanger and tie-back system, RIGGER (with setting tool)</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>13-3/8" x 17" Centralizer (Stand-Off) with pins</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>13-3/8" x 17" Centralizer (Bow Type) with pins</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>13-3/8" x 17" Cement Metal Petal Basket</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>Corrosion Ring, 4-1/2"IF &amp; 5"X Hole</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>Thread Locking Compound * Baker Lock</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>Thread Sealant * Premium Thread Compound</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>10-3/4" OD Casing; 40.5 PPF, K55, PERFORATED</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>10-3/4" OD Casing; 40.5 PPF, K55, BLANK</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>10-3/4" Guide Shoe, BTC</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td>10-3/4" x 13-3/8" Liner Adaptor, Rigger</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>Corrosion Ring, 4-1/2"IF &amp; 5"X Hole</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>Compound Thread Locking (bakerlock)</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>Compound Thread Sealant (PTC)</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>8-5/8" OD Casing; 24 PPF, Grade K55 (Perforated)</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>8-5/8" Guide Shoe</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>8-5/8" x 10-3/4" Liner Hanger/Adaptor</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>9-5/8" OD Casing; 43.5 PPF, Grade L80 (Perforated) BTC</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>9-5/8" OD Casing; 47 PPF, Grade L80 (Blank)  BTC</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>9-5/8" OD Float Shoe BTC, 47ppf</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>Liner Adaptor 13-3/8" X 9-5/8" (Liner Hanger)</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>Corrosion Ring, 4-1/2"IF &amp; 5"X Hole</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>9-5/8" OD Casing; 43.5 PPF, Grade L80 (Perforated) BTC</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>9-5/8" OD Casing; 47 PPF, Grade L80 (Blank)  BTC</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>9-5/8" OD Float Shoe BTC, 47ppf</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>Liner Adaptor 13-3/8" X 9-5/8" (Liner Hanger)</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>Corrosion Ring, 4-1/2"IF &amp; 5"X Hole</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>Thread Locking Compound * Baker Lock</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+
+		<tr>
+			<td>Thread Sealant * Premium Thread Compound</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>7" OD Casing; 26 PPF, Grade K55 (Perforated)</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>7" Blank Casing, 26 PPF x 40', K55, BTC</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>7" Guide Shoe, 23 PPF, K55, BTC SCC</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+	</rows>
+</casing_cost_details_qty>
+	
+<casing_cost_details_cost>
+	<headers>
+		<td>Quantities</td>
+		<td></td>
+		<td>Cost</td>
+		<td>RIGMOVE</td>
+		<td>DSURF</td>
+		<td>FSURF</td>
+		<td>DINTER</td>
+		<td>FINTER</td>
+		<td>DPROD</td>
+		<td>FPROD</td>
+		<td>DPL1</td>
+		<td>FPL1</td>
+		<td>DPL2</td>
+		<td>FPL2</td>	
+		<td>Total</td>		
+	</headers>
+	<rows>
+		<tr>
+			<td> 26" OD Casing, 203ppf, Grade  X56, LSD </td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item0"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 26" FLOAT SHOE, SILI w/ accs.  </td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item1"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> 26" x 32" Centralizer, Bow Type   </td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item2"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> Corrosion Ring, 4-1/2"IF and 5"X Hole  </td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item3"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td>Thread Locking Compound * Baker Lock  </td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item4"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>Thread Sealant * Premium Thread Compound</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item5"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td>0</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item6"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>18-5/8" OD Casing, 114PPF, K55, BTC</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item7"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>18-5/8" Float Shoe, BTC</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item8"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>18-5/8" Float Collar, 114PPF, BTC SILI w/ accs</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item9"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>18-5/8" x 23" Centralizer, Stand-off</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item10"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>18-5/8" x 23" Centralizer, Bow Type</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item11"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>18-5/8" x 23" Metal Petal Basket</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item12"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>Corrosion Ring, 4-1/2"IF &amp; 5"X Hole</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item13"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>Thread Locking Compound * Baker Lock</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item14"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>Thread Sealant * Premium Thread Compound</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item15"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>13-3/8" OD Casing; 68 PPF, Grade L80, BTC</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item16"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>13-3/8" Float Shoe; 68ppf, BTC</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item17"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>13-3/8" Float Collar, 68ppf, BTC</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item18"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>13-3/8" x 18-5/8" Liner Hanger and tie-back system, RIGGER (with setting tool)</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item19"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>13-3/8" x 17" Centralizer (Stand-Off) with pins</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item20"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>13-3/8" x 17" Centralizer (Bow Type) with pins</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item21"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>13-3/8" x 17" Cement Metal Petal Basket</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item22"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>Corrosion Ring, 4-1/2"IF &amp; 5"X Hole</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item23"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>Thread Locking Compound * Baker Lock</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item24"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>Thread Sealant * Premium Thread Compound</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item25"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>10-3/4" OD Casing; 40.5 PPF, K55, PERFORATED</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item26"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>10-3/4" OD Casing; 40.5 PPF, K55, BLANK</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item27"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>10-3/4" Guide Shoe, BTC</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item28"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td>10-3/4" x 13-3/8" Liner Adaptor, Rigger</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item29"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>Corrosion Ring, 4-1/2"IF &amp; 5"X Hole</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item30"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>Compound Thread Locking (bakerlock)</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item31"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>Compound Thread Sealant (PTC)</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item32"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>8-5/8" OD Casing; 24 PPF, Grade K55 (Perforated)</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item33"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>8-5/8" Guide Shoe</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item34"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>8-5/8" x 10-3/4" Liner Hanger/Adaptor</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item35"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>9-5/8" OD Casing; 43.5 PPF, Grade L80 (Perforated) BTC</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item36"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>9-5/8" OD Casing; 47 PPF, Grade L80 (Blank)  BTC</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item37"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>9-5/8" OD Float Shoe BTC, 47ppf</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item38"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>Liner Adaptor 13-3/8" X 9-5/8" (Liner Hanger)</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item39"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>Corrosion Ring, 4-1/2"IF &amp; 5"X Hole</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item40"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>9-5/8" OD Casing; 43.5 PPF, Grade L80 (Perforated) BTC</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item41"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>9-5/8" OD Casing; 47 PPF, Grade L80 (Blank)  BTC</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item42"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>9-5/8" OD Float Shoe BTC, 47ppf</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item43"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>Liner Adaptor 13-3/8" X 9-5/8" (Liner Hanger)</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item44"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>Corrosion Ring, 4-1/2"IF &amp; 5"X Hole</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item45"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>Thread Locking Compound * Baker Lock</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item46"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+
+		<tr>
+			<td>Thread Sealant * Premium Thread Compound</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item47"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>7" OD Casing; 26 PPF, Grade K55 (Perforated)</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item48"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>7" Blank Casing, 26 PPF x 40', K55, BTC</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item49"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td>7" Guide Shoe, 23 PPF, K55, BTC SCC</td> 
+			<td/><td type="text" value="unit costs" id="casings-cost-item50"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td><b>Total</b></td>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+	</rows>
+</casing_cost_details_cost>
+
+</table>

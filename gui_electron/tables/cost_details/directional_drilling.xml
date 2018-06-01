@@ -1,0 +1,369 @@
+<table>
+    <directional_drilling_cost_details_qty>
+         <headers>
+            <td>Equipment</td>
+            <td>Qty</td>
+            <td></td>
+            <td>RIGMOVE</td>
+            <td>DSURF</td>
+            <td>FSURF</td>
+            <td>DINTER</td>
+            <td>FINTER</td>
+            <td>DPROD</td>
+            <td>FPROD</td>
+            <td>DPL1</td>
+            <td>FPL1</td>
+            <td>DPL2</td>
+            <td>FPL2</td>		
+            <td>Total</td>
+        </headers>
+        <rows>
+            <tr>
+                <td> Directional Engineer</td>
+                <td type="input" value="2" id="directional-drilling-qty-item0"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td> MWD Engineer</td>
+                <td type="input" value="2" id="directional-drilling-qty-item1"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td> 9-5/8" Mud Motor, rental</td>
+                <td type="input" value="4" id="directional-drilling-qty-item2"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>9-5/8" Mud Motor, run charge</td>
+                <td type="input" value="1" id="directional-drilling-qty-item3"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>8" Mud Motor, rental</td>
+                <td type="input" value="2" id="directional-drilling-qty-item4"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>8" Mud Motor, run charge</td>
+                <td type="input" value="2" id="directional-drilling-qty-item5"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>6-3/4" Mud Motor, rental</td>
+                <td type="input" value="2" id="directional-drilling-qty-item6"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>6-3/4" Mud Motor, run charge</td>
+                <td type="input" value="1" id="directional-drilling-qty-item7"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>MWD, operating</td>
+                <td type="input" value="1" id="directional-drilling-qty-item8"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>MWD, rental</td>
+                <td type="input" value="1" id="directional-drilling-qty-item9"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>EMS, rental</td>
+                <td type="input" value="1" id="directional-drilling-qty-item10"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>EMS, operating</td>
+                <td type="input" value="1" id="directional-drilling-qty-item11"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>EMS Redress</td>
+                <td type="input" value="1" id="directional-drilling-qty-item12"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>8" NMDC</td>
+                <td type="input" value="2" id="directional-drilling-qty-item13"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>6-1/2" Pony NMDC</td>
+                <td type="input" value="2" id="directional-drilling-qty-item14"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>6-1/2" NMDC</td>
+                <td type="input" value="2" id="directional-drilling-qty-item15"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>26" Stabilizer</td>
+                <td type="input" value="2" id="directional-drilling-qty-item16"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>23" Stabilizer</td>
+                <td type="input" value="2" id="directional-drilling-qty-item17"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>16"/ 16-1/2" Stabilizer</td>
+                <td type="input" value="3" id="directional-drilling-qty-item18"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>12-1/4" Stabilizer</td>
+                <td type="input" value="3" id="directional-drilling-qty-item19"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>9-7/8" Stabilizer</td>
+                <td type="input" value="3" id="directional-drilling-qty-item20"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>8-1/2" Stabilizer</td>
+                <td type="input" value="3" id="directional-drilling-qty-item21"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>6-1/2" Stabilizer</td>
+                <td type="input" value="3" id="directional-drilling-qty-item22"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>9" NMDC</td>
+                <td type="input" value="2" id="directional-drilling-qty-item23"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>8" Pony NMDC</td>
+                <td type="input" value="2" id="directional-drilling-qty-item24"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>8" PWD Tool</td>
+                <td type="input" value="2" id="directional-drilling-qty-item25"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>6-3/4" PWD Tool</td>
+                <td type="input" value="1" id="directional-drilling-qty-item26"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>Circulating Hours 8 PWD</td>
+                <td type="input" value="1" id="directional-drilling-qty-item27"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>Circulating Hours 6 PWD</td>
+                <td type="input" value="1" id="directional-drilling-qty-item28"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>PWD Engineer 8in</td>
+                <td type="input" value="1" id="directional-drilling-qty-item29"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>PWD Engineer 6in</td>
+                <td type="input" value="1" id="directional-drilling-qty-item30"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            
+            <tr>
+                <td>Tool Mob/Demob</td>
+                <td type="input" value="1" id="directional-drilling-qty-item31"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+        </rows>
+    </directional_drilling_cost_details_qty>
+     
+    <directional_drilling_cost_details_cost>
+         <headers>
+            <td>Equipment</td>
+            <td></td>
+            <td>Cost</td>
+            <td>RIGMOVE</td>
+            <td>DSURF</td>
+            <td>FSURF</td>
+            <td>DINTER</td>
+            <td>FINTER</td>
+            <td>DPROD</td>
+            <td>FPROD</td>
+            <td>DPL1</td>
+            <td>FPL1</td>
+            <td>DPL2</td>
+            <td>FPL2</td>		
+            <td>Total</td>
+        </headers>
+        <rows>
+            <tr>
+                <td> Directional Engineer</td>
+                <td/><td type="input" value="2" id="directional-drilling-cost-item0"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td> MWD Engineer</td>
+                <td/><td type="input" value="2" id="directional-drilling-cost-item1"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td> 9-5/8" Mud Motor, rental</td>
+                <td/><td type="input" value="4" id="directional-drilling-cost-item2"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>9-5/8" Mud Motor, run charge</td>
+                <td/><td type="input" value="1" id="directional-drilling-cost-item3"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>8" Mud Motor, rental</td>
+                <td/><td type="input" value="2" id="directional-drilling-cost-item4"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>8" Mud Motor, run charge</td>
+                <td/><td type="input" value="1" id="directional-drilling-cost-item5"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>6-3/4" Mud Motor, rental</td>
+                <td/><td type="input" value="2" id="directional-drilling-cost-item6"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>6-3/4" Mud Motor, run charge</td>
+                <td/><td type="input" value="1" id="directional-drilling-cost-item7"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>MWD, operating</td>
+                <td/><td type="input" value="1" id="directional-drilling-cost-item8"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>MWD, rental</td>
+                <td/><td type="input" value="1" id="directional-drilling-cost-item9"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>EMS, rental</td>
+                <td/><td type="input" value="1" id="directional-drilling-cost-item10"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>EMS, operating</td>
+                <td/><td type="input" value="1" id="directional-drilling-cost-item11"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>EMS Redress</td>
+                <td/><td type="input" value="1" id="directional-drilling-cost-item12"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>8" NMDC</td>
+                <td/><td type="input" value="2" id="directional-drilling-cost-item13"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>6-1/2" Pony NMDC</td>
+                <td/><td type="input" value="2" id="directional-drilling-cost-item14"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>6-1/2" NMDC</td>
+                <td/><td type="input" value="2" id="directional-drilling-cost-item15"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>26" Stabilizer</td>
+                <td/><td type="input" value="2" id="directional-drilling-cost-item16"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>23" Stabilizer</td>
+                <td/><td type="input" value="2" id="directional-drilling-cost-item17"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>16"/ 16-1/2" Stabilizer</td>
+                <td/><td type="input" value="3" id="directional-drilling-cost-item18"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>12-1/4" Stabilizer</td>
+                <td/><td type="input" value="3" id="directional-drilling-cost-item19"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>9-7/8" Stabilizer</td>
+                <td/><td type="input" value="3" id="directional-drilling-cost-item20"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>8-1/2" Stabilizer</td>
+                <td/><td type="input" value="3" id="directional-drilling-cost-item21"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>6-1/2" Stabilizer</td>
+                <td/><td type="input" value="3" id="directional-drilling-cost-item22"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>9" NMDC</td>
+                <td/><td type="input" value="2" id="directional-drilling-cost-item23"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>8" Pony NMDC</td>
+                <td/><td type="input" value="2" id="directional-drilling-cost-item24"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>8" PWD Tool</td>
+                <td/><td type="input" value="2" id="directional-drilling-cost-item25"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>6-3/4" PWD Tool</td>
+                <td/><td type="input" value="1" id="directional-drilling-cost-item26"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>Circulating Hours 8 PWD</td>
+                <td/><td type="input" value="1" id="directional-drilling-cost-item27"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>Circulating Hours 6 PWD</td>
+                <td/><td type="input" value="1" id="directional-drilling-cost-item28"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>PWD Engineer 8in</td>
+                <td/><td type="input" value="1" id="directional-drilling-cost-item29"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>PWD Engineer 6in</td>
+                <td/><td type="input" value="1" id="directional-drilling-cost-item30"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            
+            <tr>
+                <td>Tool Mob/Demob</td>
+                <td/><td type="input" value="1" id="directional-drilling-cost-item31"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td> Total </td>
+                <td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+        </rows>
+    </directional_drilling_cost_details_cost>
+</table>

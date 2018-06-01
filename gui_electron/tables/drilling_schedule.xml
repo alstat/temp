@@ -1,0 +1,119 @@
+<table>
+
+<drilling_schedule>
+<headers>
+		<td> Phase </td>
+		<td> Start</td>
+		<td> End </td>
+		<td> Duration </td>
+		<td> Cost/Day </td>
+</headers>
+	<rows>
+		<tr>
+			<td> Rigmove </td>
+			<td value="2018-05-01" id="rigmove_start" type="input" format='date' class='date-input date-input-edit'/>
+			<td value="" id="rigmove_end" type="input" format='text' class='date-input'/>
+			<td value="13" id="rigmove_duration" type="input"/>
+			<td value="1406165.95" id="rigmove_daily_cost" class="daily-cost" type="input"/>
+		</tr>
+		<tr>
+			<td> Surface: Drilling </td>
+			<td value="" id="dsurface_start" type="input" format='text' class='date-input'/>
+			<td value="" id="dsurface_end" type="input" format='text' class='date-input'/>
+			<td value="3" id="dsurface_duration" type="input"/>
+			<td value="4988837.57" id="dsurface_daily_cost" class="daily-cost" type="input"/>
+		</tr>
+		<tr>
+			<td> Surface: Flat </td>
+			<td value="" id="fsurface_start" type="input" format='text' class='date-input'/>
+			<td value="" id="fsurface_end" type="input" format='text' class='date-input'/>
+			<td value="3" id="fsurface_duration" type="input"/>
+			<td value="7899430.62" id="fsurface_daily_cost" class="daily-cost" type="input"/>
+		</tr>
+		<tr>
+			<td> Intermediate: Drilling </td>
+			<td value="" id="dintermediate_start" type="input" format='text' class='date-input'/>
+			<td value="" id="dintermediate_end" type="input" format='text' class='date-input'/>
+			<td value="1" id="dintermediate_duration" type="input"/>
+			<td value="4512456.44" id="dintermediate_daily_cost" class="daily-cost" type="input"/>
+		</tr>
+		<tr>
+			<td> Intermediate: Flat </td>
+			<td value="" id="fintermediate_start" type="input" format='text' class='date-input'/>
+			<td value="" id="fintermediate_end" type="input" format='text' class='date-input'/>
+			<td value="6" id="fintermediate_duration" type="input"/>
+			<td value="6163470.57" id="fintermediate_daily_cost" class="daily-cost" type="input"/>
+		</tr>
+		<tr>
+			<td> Production Casing: Drilling </td>
+			<td value="" id="dproduction_start" type="input" format='text' class='date-input'/>
+			<td value="" id="dproduction_end" type="input" format='text' class='date-input'/>
+			<td value="4" id="dproduction_duration" type="input"/>
+			<td value="4412178.58" id="dproduction_daily_cost" class="daily-cost" type="input"/>
+		</tr>
+		<tr>
+			<td> Production Casing: Flat </td>
+			<td value="" id="fproduction_start" type="input" format='text' class='date-input'/>
+			<td value="" id="fproduction_end" type="input" format='text' class='date-input'/>
+			<td value="6" id="fproduction_duration" type="input"/>
+			<td value="6862096.67" id="fproduction_daily_cost" class="daily-cost" type="input"/>
+		</tr>
+		<tr>
+			<td> Production Liner 1: Drilling </td>
+			<td value="" id="dliner1_start" type="input" format='text' class='date-input'/>
+			<td value="" id="dliner1_end" type="input" format='text' class='date-input'/>
+			<td value="3" id="dliner1_duration" type="input"/>
+			<td value="4643193.99" id="dliner1_daily_cost" class="daily-cost" type="input"/>
+		</tr>
+		<tr>
+			<td> Production Liner 1: Flat </td>
+			<td value="" id="fliner1_start" type="input" format='text' class='date-input'/>
+			<td value="" id="fliner1_end" type="input" format='text' class='date-input'/>
+			<td value="1" id="fliner1_duration" type="input"/>
+			<td value="6321539.57" id="fliner1_daily_cost" class="daily-cost" type="input"/>
+		</tr>
+		<tr>
+			<td> Production Liner 2: Drilling </td>
+			<td value="" id="dliner2_start" type="input" format='text' class='date-input'/>
+			<td value="" id="dliner2_end" type="input" format='text' class='date-input'/>
+			<td value="13" id="dliner2_duration" type="input"/>
+			<td value="" id="dliner2_daily_cost" class="daily-cost" type="input"/>
+		</tr>
+		<tr>
+			<td> Production Liner 2: Flat </td>
+			<td value="" id="fliner2_start" type="input" format='text' class='date-input'/>
+			<td value="" id="fliner2_end" type="input" format='text' class='date-input'/>
+			<td value="7" id="fliner2_duration" type="input"/>
+			<td value="" id="fliner2_daily_cost" class="daily-cost" type="input"/>
+		</tr>
+		<tr>
+			<td> Production Liner 3: Drilling </td>
+			<td value="" id="dliner3_start" type="input" format='text' class='date-input'/>
+			<td value="" id="dliner3_end" type="input" format='text' class='date-input'/>
+			<td value="" id="dliner3_duration" type="input"/>
+			<td value="" id="dliner3_daily_cost" class="daily-cost" type="input"/>
+		</tr>
+		<tr>
+			<td> Production Liner 3: Flat </td>
+			<td value="" id="fliner3_start" type="input" format='text' class='date-input'/>
+			<td value="" id="fliner3_end" type="input" format='text' class='date-input'/>
+			<td value="" id="fliner3_duration" type="input"/>
+			<td value="" id="fliner3_daily_cost" class="daily-cost" type="input"/>
+		</tr>
+		<tr>
+			<td> Reline </td>
+			<td value="" id="reline_start" type="input" format='text' class='date-input'/>
+			<td value="" id="reline_end" type="input" format='text' class='date-input'/>
+			<td value="" id="reline_duration" type="input"/>
+			<td value="" id="reline_daily_cost" class="daily-cost" type="input"/>
+		</tr>
+		<tr>
+			<td> Rig Release </td>
+			<td value="" id="rigrelease_start" type="input" format='text' class='date-input'/>
+			<td value="" id="rigrelease_end" type="input" format='text' class='date-input'/>
+			<td value="" id="rigrelease_duration" type="input"/>
+			<td value="" id="rigrelease_daily_cost" class="daily-cost" type="input"/>
+		</tr>
+	</rows>
+</drilling_schedule>
+</table>

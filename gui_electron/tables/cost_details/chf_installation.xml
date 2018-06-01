@@ -1,0 +1,123 @@
+<table>
+    <chf_installation_qty>
+         <headers>
+            <td>Equipment</td>
+            <td></td>
+            <td>Unit</td>
+            <td>RIGMOVE</td>
+            <td>DSURF</td>
+            <td>FSURF</td>
+            <td>DINTER</td>
+            <td>FINTER</td>
+            <td>DPROD</td>
+            <td>FPROD</td>
+            <td>DPL1</td>
+            <td>FPL1</td>
+            <td>DPL2</td>
+            <td>FPL2</td>		
+            <td>Total</td>
+        </headers>
+        <rows>
+            <tr>
+                <td>CHF Casing</td>
+                <td/><td>lump sum</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>Mob/Demob of Equipment</td>
+                <td/><td>lump sum</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>Mob/Demob of Personnel</td>
+                <td/><td>lump sum</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>Service Vehicle; Daily</td>
+                <td/><td>per day</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>Standby Rate; Daily Equipment</td>
+                <td/><td>per day</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>Standby Rate; Daily Personnel</td>
+                <td/><td>per day</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>Standby Rate; Daily Boom Truck</td>
+                <td/><td>per day</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>Standby Rate; Daily</td>
+                <td/><td>per day</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>WTL</td>
+                <td/><td>lump sum</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+        </rows>
+    </chf_installation_qty>
+
+    <chf_installation_cost>
+         <headers>
+            <td>Equipment</td>
+            <td></td>
+            <td>Cost</td>
+            <td>RIGMOVE</td>
+            <td>DSURF</td>
+            <td>FSURF</td>
+            <td>DINTER</td>
+            <td>FINTER</td>
+            <td>DPROD</td>
+            <td>FPROD</td>
+            <td>DPL1</td>
+            <td>FPL1</td>
+            <td>DPL2</td>
+            <td>FPL2</td>		
+            <td>Total</td>
+        </headers>
+        <rows>
+            <tr>
+                <td>CHF Casing</td>
+                <td/><td type="input" value="441946.00" id="chf-installation-cost-item0"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>Mob/Demob of Equipment</td>
+                <td/><td type="input" value="330500.00" id="chf-installation-cost-item1"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>Mob/Demob of Personnel</td>
+                <td/><td type="input" value="80357.00" id="chf-installation-cost-item2"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>Service Vehicle; Daily</td>
+                <td/><td type="input" value="5130.00" id="chf-installation-cost-item3"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>Standby Rate; Daily Equipment</td>
+                <td/><td type="input" value="31250.00" id="chf-installation-cost-item4"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>Standby Rate; Daily Personnel</td>
+                <td/><td type="input" value="31250.00" id="chf-installation-cost-item5"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>Standby Rate; Daily Boom Truck</td>
+                <td/><td type="input" value="10000.00" id="chf-installation-cost-item6"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>Standby Rate; Daily</td>
+                <td/><td type="input" value="0" id="chf-installation-cost-item7"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>WTL</td>
+                <td/><td type="input" value="50000.00" id="chf-installation-cost-item8"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td></td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+        </rows>
+    </chf_installation_cost>
+</table>
+
+    

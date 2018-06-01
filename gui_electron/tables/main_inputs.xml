@@ -1,0 +1,156 @@
+<table>
+
+<casing_depth>
+	<headers>
+		<td> Phase </td>
+		<td> Casing<sup>1</sup></td>
+		<td> DRLG<sup>2</sup></td>
+		<td> FLAT<sup>3</sup></td>
+		<td> Cement Plug</td>
+		<td> Top Job</td>
+		<td> Acid Section</td>
+	</headers>
+	<rows>
+		<tr>
+			<td> Surface </td>
+			<td value="100" id="casing_surface" type="input"/>
+			<td value="2" id="surface_DRLG" type="input"/>
+			<td value="4" id="surface_FLAT" type="input"/>
+			<td value="1" id="surface_cement_plug" type="input"/>
+			<td value="1" id="surface_top_job" type="input"/>
+			<td type = 'values' id = 'acid_surface' options = "No, Yes, ''"/>
+		</tr>
+		<tr>
+			<td> Intermediate </td>
+			<td value="560" id="casing_intermediate" type="input"/>
+			<td value="5" id="intermediate_DRLG" type="input"/>
+			<td value="4" id="intermediate_FLAT" type="input"/>
+			<td value="1" id="intermediate_cement_plug" type="input"/>
+			<td value="1" id="intermediate_top_job" type="input"/>
+			<td type = 'values' id = 'acid_intermediate' options = "No, Yes, ''"/>
+		</tr>
+		<tr>
+			<td> Production Casing </td>
+			<td value="1260" id="casing_production" type="input"/>
+			<td value="10" id="production_casing_DRLG" type="input"/>
+			<td value="3" id="production_casing_FLAT" type="input"/>
+			<td value="1" id="production_casing_cement_plug" type="input"/>
+			<td value="1" id="production_casing_top_job" type="input"/>	
+			<td type = 'values' id = 'acid_prodn_casing' options = "No, Yes, ''"/>		
+		</tr>
+		<tr>
+			<td> Production Liner 1 </td>
+			<td value="1900" id="casing_production_liner_1" type="input"/>
+			<td value="6" id="production_liner_1_DRLG" type="input"/>
+			<td value="2" id="production_liner_1_FLAT" type="input"/>
+			<td value="1" id="production_liner_1_cement_plug" type="input"/>
+			<td id="production_liner_1_top_job" type="input"/>
+			<td type = 'values' id = 'acid_prodn_liner_1' options = "'', Yes, No"/>
+		</tr>
+		<tr>
+			<td> Production Liner 2 </td>
+			<td value="2500" id="casing_production_liner_2" type="input"/>
+			<td value="5" id="production_liner_2_DRLG" type="input"/>
+			<td value="7" id="production_liner_2_FLAT" type="input"/>
+			<td value="1" id="production_liner_2_cement_plug" type="input"/>
+			<td id="production_liner_2_top_job" type="input"/>
+			<td type = 'values' id = 'acid_prodn_liner_2' options = "'', Yes, No"/>
+		</tr>
+		<tr>
+			<td> Production Liner 3 </td>
+			<td id="casing_production_liner_3" type="input"/>
+			<td id="production_liner_3_DRLG" type="input"/>
+			<td id="production_liner_3_FLAT" type="input"/>
+			<td id="production_liner_3_cement_plug" type="input"/>
+			<td id="production_liner_3_top_job" type="input"/>
+			<td type = 'values' id = 'acid_prodn_liner_3' options = "'', Yes, No"/>
+		</tr>
+		<tr>
+			<td>Reline</td>
+			<td id="casing_reline" type="input"/>
+			<td id="reline_DRLG" type="input"/>
+			<td id="reline_FLAT" type="input"/>
+			<td id="reline_cement_plug" type="input"/>
+			<td id="reline_top_job" type="input"/>
+			<td type = 'values' id = 'acid_reline' options = "'', Yes, No"/>
+		</tr>
+	</rows>
+</casing_depth>
+
+<other_inputs>
+	<headers>
+		<td> Variables </td>
+		<td> Values </td>
+	</headers>
+	<rows>
+		<tr>
+			<td> Well Name </td>
+			<td value="438D" id="well_name" type="input" format="text"/>
+		</tr>
+		<tr>
+			<td> Rig </td>
+			<td id="rig" type="values" options="Rig 2, Rig 1, Rig 5, Rig 12, Rig 14"/>
+		</tr>
+		<tr>
+			<td> Target Depth </td>
+			<td value="2500" id="target_depth" type="input"/>
+		</tr>
+		<tr>
+			<td> Regular Hole or Big Hole?  </td>
+			<td id="rh_bh" type="values" options="Big Hole, Regular Hole"/>
+		</tr>
+		<tr>
+			<td> Double Liner? </td>
+			<td id="double_liner" type="values" options="Yes, No"/>
+		</tr>
+		<tr>
+			<td> Surface<sup>1</sup> </td>
+			<td id="aerated_surface" type="values" options="Yes, No"/>
+		</tr>
+		<tr>
+			<td> Intermediate<sup>1</sup> </td>
+			<td id="aerated_production_intermediate" type="values" options="Yes, No"/>
+		</tr>
+		<tr>
+			<td> Production Casing<sup>1</sup> </td>
+			<td id="aerated_production_casing" type="values" options="Yes, No"/>
+		</tr>
+		<tr>
+			<td> Production Liner 1<sup>1</sup> </td>
+			<td id="aerated_production_liner_1" type="values" options="Yes, No"/>
+		</tr>
+		<tr>
+			<td> Production Liner 2<sup>1</sup> </td>
+			<td id="aerated_production_liner_2" type="values" options="Yes, No"/>
+		</tr>
+		<tr>
+			<td> Regular Bottom Section for BH?  </td>
+			<td id="reg_bottom_bh" type="values" options="No, Yes"/>
+		</tr>
+		<tr>
+			<td> Rent Drill Pipes?  </td>
+			<td id="rent_drill_pipes" type="values" options="No, Yes"/>
+		</tr>
+		<tr>
+			<td> Mob/Demob Drillpipes  </td>
+			<td id="mob_demob_drillpipes" type="values" options="WITHIN SITE, IMPORT, N/A"/>
+		</tr>
+		<tr>
+			<td> No. of Joints </td>
+			<td value="311" id="no_of_joints" type="input"/>
+		</tr>
+		<tr>
+			<td> Yes if without Pre-installed Casing  </td>
+			<td id="yes_wo_preinstalled_casing" type="values" options="Yes, No"/>
+		</tr>
+		<tr>
+			<td> Production Liner 3  </td>
+			<td id="prod_liner_3" type="values" options="No, Yes"/>
+		</tr>
+		<tr>
+			<td> Interisland Rig Move  </td>
+			<td id="interisland_rigmove" type="values" options="No, RIG 1 (LGBU - MAGBU), RIG 1 (LGBU - NIGBU), RIG 2 (NIGBU - BGBU), RIG 2 (NIGBU - MAGBU), Rig 12 (NIGBU - MAGBU)"/>
+		</tr>
+	</rows>
+</other_inputs>
+</table>

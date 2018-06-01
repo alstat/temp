@@ -1,0 +1,106 @@
+<table>
+    <equipmental_rental_qty>
+         <headers>
+            <td>Equipment</td>
+            <td>Qty</td>
+            <td>Unit</td>
+            <td>RIGMOVE</td>
+            <td>DSURF</td>
+            <td>FSURF</td>
+            <td>DINTER</td>
+            <td>FINTER</td>
+            <td>DPROD</td>
+            <td>FPROD</td>
+            <td>DPL1</td>
+            <td>FPL1</td>
+            <td>DPL2</td>
+            <td>FPL2</td>		
+            <td>Total</td>
+        </headers>
+        <rows>
+            <tr>
+                <td>50T CRANE</td>
+                <td type="input" value="1" id="equipmental-rental-qty-item0"/><td>0</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>70T CRANE</td>
+                <td type="input" value="1" id="equipmental-rental-qty-item1"/><td>0</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>180T CRANE</td>
+                <td type="input" value="0" id="equipmental-rental-qty-item2"/><td>0</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>Manlift</td>
+                <td type="input" value="1" id="equipmental-rental-qty-item3"/><td>0</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>5TUT PUMP</td>
+                <td type="input" value="2" id="equipmental-rental-qty-item4"/><td>0</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>FORKLOADER</td>
+                <td type="input" value="2" id="equipmental-rental-qty-item5"/><td>0</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>BOOM TRUCK</td>
+                <td type="input" value="1" id="equipmental-rental-qty-item6"/><td></td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+        </rows>
+    </equipmental_rental_qty>
+    
+    <equipmental_rental_cost>
+         <headers>
+            <td>Equipment</td>
+            <td>Qty</td>
+            <td>Rate</td>
+            <td>RIGMOVE</td>
+            <td>DSURF</td>
+            <td>FSURF</td>
+            <td>DINTER</td>
+            <td>FINTER</td>
+            <td>DPROD</td>
+            <td>FPROD</td>
+            <td>DPL1</td>
+            <td>FPL1</td>
+            <td>DPL2</td>
+            <td>FPL2</td>		
+            <td>Total</td>
+        </headers>
+        <rows>
+            <tr>
+                <td>50T CRANE</td>
+                <td></td><td type="input" value="3328.00" id="equipmental-rental-cost-item0"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>70T CRANE</td>
+                <td></td><td type="input" value="7738.00" id="equipmental-rental-cost-item1"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>180T CRANE</td>
+                <td></td><td type="input" value="15800.00" id="equipmental-rental-cost-item2"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>Manlift</td>
+                <td></td><td type="input" value="0" id="equipmental-rental-cost-item3"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>5TUT PUMP</td>
+                <td></td><td type="input" value="1800.00" id="equipmental-rental-cost-item4"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>FORKLOADER</td>
+                <td></td><td type="input" value="1800.00" id="equipmental-rental-cost-item5"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>BOOM TRUCK</td>
+                <td></td><td type="input" value="0" id="equipmental-rental-cost-item6"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td><b> Total </b></td>
+                <td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+        </rows>
+    </equipmental_rental_cost>
+</table>

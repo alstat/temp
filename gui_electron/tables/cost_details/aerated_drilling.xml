@@ -1,0 +1,259 @@
+<table>
+    <aerated_drilling_qty>
+        <headers>
+            <td>Equipment</td>
+            <td></td>
+            <td>Unit</td>
+            <td>RIGMOVE</td>
+            <td>DSURF</td>
+            <td>FSURF</td>
+            <td>DINTER</td>
+            <td>FINTER</td>
+            <td>DPROD</td>
+            <td>FPROD</td>
+            <td>DPL1</td>
+            <td>FPL1</td>
+            <td>DPL2</td>
+            <td>FPL2</td>		
+            <td>Total</td>
+        </headers>
+        <rows>
+            <tr>
+                <td>Equipment Operating Rate</td>
+                <td>per day</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>Equipment Standby Rate</td>
+                <td>per day</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>Equipment Mobilization</td>
+                <td>per move</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>Equipment Demobilization</td>
+                <td>per move</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>Air Drilling Supervisor</td>
+                <td>/ day for 2 pax</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>Air Drilling Operator</td>
+                <td>/ day for 4 pax</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>Supervisor Mobilization</td>
+                <td>/ day for 2 pax</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>ANCILLARIES</td>
+                <td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>Backup Booster Standby</td>
+                <td>per day</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>Backup Booster Operating</td>
+                <td>per day</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>Mist Pump Standby</td>
+                <td>per day</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+	
+            <tr>
+                <td>Mist Pump Operating</td>
+                <td>per day</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+	
+            <tr>
+                <td>20-3/4" / 21-1/4" Rotating Head</td>
+                <td>per day</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+	
+	        <tr>
+                <td>21-1/4" Banjo Box (Optional)</td>
+                <td>per day</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+	
+            <tr>
+                <td>CONSUMABLES</td>
+                <td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>Rotating Rubber Head</td>
+                <td>per piece</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>Corrosion Inhibitor</td>
+                <td>per piece</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>Defoamer</td>
+                <td>per drum</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>Surfactant</td>
+                <td>per drum</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>Rotating Head Refurbishment</td>
+                <td>each</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+	
+            <tr>
+                <td>FV and Sub Inspection and Refurbishment</td>
+                <td>each</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+        </rows>
+    </aerated_drilling_qty>
+
+    <aerated_drilling_cost>
+        <headers>
+            <td>Equipment</td>
+            <td></td>
+            <td>Cost</td>
+            <td>RIGMOVE</td>
+            <td>DSURF</td>
+            <td>FSURF</td>
+            <td>DINTER</td>
+            <td>FINTER</td>
+            <td>DPROD</td>
+            <td>FPROD</td>
+            <td>DPL1</td>
+            <td>FPL1</td>
+            <td>DPL2</td>
+            <td>FPL2</td>		
+            <td>Total</td>
+        </headers>
+        <rows>
+            <tr>
+                <td>Equipment Operating Rate</td>
+                <td/><td type="input" value="2" id="aerated-drilling-cost-item0"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>Equipment Standby Rate</td>
+                <td/><td type="input" value="2" id="aerated-drilling-cost-item1"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>Equipment Mobilization</td>
+                <td/><td type="input" value="2" id="aerated-drilling-cost-item2"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>Equipment Demobilization</td>
+                <td/><td type="input" value="2" id="aerated-drilling-cost-item3"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>Air Drilling Supervisor</td>
+                <td/><td type="input" value="2" id="aerated-drilling-cost-item4"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>Air Drilling Operator</td>
+                <td/><td type="input" value="2" id="aerated-drilling-cost-item5"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>Supervisor Mobilization</td>
+                <td/><td type="input" value="2" id="aerated-drilling-cost-item6"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>ANCILLARIES</td>
+                <td/><td type="input" value="2" id="aerated-drilling-cost-item7"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>Backup Booster Standby</td>
+                <td/><td type="input" value="2" id="aerated-drilling-cost-item8"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>Backup Booster Operating</td>
+                <td/><td type="input" value="2" id="aerated-drilling-cost-item9"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>Mist Pump Standby</td>
+                <td/><td type="input" value="2" id="aerated-drilling-cost-item10"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+	
+            <tr>
+                <td>Mist Pump Operating</td>
+                <td/><td type="input" value="2" id="aerated-drilling-cost-item11"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+	
+            <tr>
+                <td>20-3/4" / 21-1/4" Rotating Head</td>
+                <td/><td type="input" value="2" id="aerated-drilling-cost-item12"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+	
+	        <tr>
+                <td>21-1/4" Banjo Box (Optional)</td>
+                <td/><td type="input" value="2" id="aerated-drilling-cost-item13"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+	
+            <tr>
+                <td>CONSUMABLES</td>
+                <td/><td type="input" value="2" id="aerated-drilling-cost-item14"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>Rotating Rubber Head</td>
+                <td/><td type="input" value="2" id="aerated-drilling-cost-item15"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>Corrosion Inhibitor</td>
+                <td/><td type="input" value="2" id="aerated-drilling-cost-item16"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>Defoamer</td>
+                <td/><td type="input" value="2" id="aerated-drilling-cost-item17"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>Surfactant</td>
+                <td/><td type="input" value="2" id="aerated-drilling-cost-item18"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+
+            <tr>
+                <td>Rotating Head Refurbishment</td>
+                <td/><td type="input" value="2" id="aerated-drilling-cost-item19"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+	
+            <tr>
+                <td>FV and Sub Inspection and Refurbishment</td>
+                <td/><td type="input" value="2" id="aerated-drilling-cost-item20"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            
+            <tr>
+                <td> <b>Total</b> </td>
+                <td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+        </rows>
+    </aerated_drilling_cost>
+</table>

@@ -1,0 +1,178 @@
+<table>
+
+<cover_sheet_1>
+<headers>
+		<td> Expense Code </td>
+		<td> Nature of Expenditure </td>
+		<td> Amount </td>
+</headers>
+	<rows>
+		<tr>
+			<td> 5202000 </td>
+			<td> Fuels </td>
+			<td> <span class = 'cover-sheet-output' id='fuels'/> </td>
+		</tr>
+		<tr>
+			<td> 5202000 </td>
+			<td> Lubricants (Oil, Grease, Etc.) </td>
+			<td> <span class = 'cover-sheet-output' id='lubricants'/> </td>
+		</tr>
+		<tr>
+			<td> 5203000 </td>
+			<td> Mud and Chemicals </td>
+			<td> <span class = 'cover-sheet-output' id='mud_and_chemicals'/> </td>
+		</tr>
+		<tr>
+			<td> 5213000 </td>
+			<td> Cements and Additives </td>
+			<td> <span class = 'cover-sheet-output' id='cements_and_additives'/></td>			
+		</tr>
+		<tr>
+			<td> 5214000 </td>
+			<td> Rockbits </td>
+			<td> <span class = 'cover-sheet-output' id='rockbits'/></td>	
+		</tr>
+		<tr>
+			<td> 5215000 </td>
+			<td> Drilling Supplies </td>
+			<td> <span class = 'cover-sheet-output' id='drilling_supplies'/></td>	
+		</tr>
+		<tr>
+			<td> 5216000 </td>
+			<td> Casings </td>
+			<td> <span class = 'cover-sheet-output' id='casings'/></td>
+		</tr>
+		<tr>
+			<td> 5221000 </td>
+			<td> Wellhead </td>
+			<td> <span class = 'cover-sheet-output' id='wellhead'/></td>	
+		</tr>
+	</rows>
+</cover_sheet_1>
+
+<cover_sheet_2>
+<headers>
+		<td> Expense Code </td>
+		<td> Nature of Expenditure </td>
+		<td> Amount </td>
+</headers>
+	<rows>
+		<tr>
+			<td> 5467000 </td>
+			<td> Cementing Services </td>
+			<td> <span class = 'cover-sheet-output' id='cementing_services'/></td>
+		</tr>
+		<tr>
+			<td> 5466000 </td>
+			<td> Directional Drilling Services (with PWD) </td>
+			<td> <span class = 'cover-sheet-output' id='directional_drilling_services'/></td>
+		</tr>
+		<tr>
+			<td> 5468000 </td>
+			<td> Mud Engineering Services </td>
+			<td> <span class = 'cover-sheet-output' id='mud_engineering_services'/></td>
+		</tr>
+		<tr>
+			<td> 5470000 </td>
+			<td> Aerated Drilling Services </td>
+			<td> <span class = 'cover-sheet-output' id='aerated_drilling_services'/></td>	
+		</tr>
+		<tr>
+			<td> 5469000 </td>
+			<td> Jars and Shock Tools </td>
+			<td> <span class = 'cover-sheet-output' id='jars_and_shock_tools'/></td>
+		</tr>
+		<tr>
+			<td> 5425000 </td>
+			<td> CHF Welding Services </td>
+			<td> <span class = 'cover-sheet-output' id='chf_welding_services'/></td>
+		</tr>
+		<tr>
+			<td> 5472000 </td>
+			<td> Mud Logging Services </td>
+			<td> <span class = 'cover-sheet-output' id='mud_logging_services'/></td>		
+		</tr>
+		<tr>
+			<td> 5471000 </td>
+			<td> Casing Running Services </td>
+			<td> <span class = 'cover-sheet-output' id='casing_running_services'/></td>
+		</tr>
+		<tr>
+			<td> 5463000 </td>
+			<td> Drilling Rig Services </td>
+			<td> <span class = 'cover-sheet-output' id='drilling_rig_services'/></td>
+		</tr>	
+		<tr>
+			<td> 5503000 </td>
+			<td> Drill Pipes </td>
+			<td> <span class = 'cover-sheet-output' id='drill_pipes'/></td>
+		</tr>		
+		<tr>
+			<td> 5465000 </td>
+			<td> Completion Test-Wireline </td>
+			<td> <span class = 'cover-sheet-output' id='completion_test_wireline'/></td>
+		</tr>			
+		<tr>
+			<td> 5465000 </td>
+			<td> Other Cementing Services </td>
+			<td> <span class = 'cover-sheet-output' id='other_cementing_services'/></td>
+		</tr>			
+		<tr>
+			<td> 5411000 </td>
+			<td> Handling, Hauling, Towing and Del. </td>
+			<td> <span class = 'cover-sheet-output' id='handling_hauling_towing'/></td>
+		</tr>			
+		<tr>
+			<td> 5431000 </td>
+			<td> Rig Mobilization Charges </td>
+			<td> <span class = 'cover-sheet-output' id='rig_mobilization_charges'/></td>
+		</tr>	
+	</rows>
+</cover_sheet_2>
+
+<cover_sheet_3>
+<headers>
+		<td> Expense Code </td>
+		<td> Nature of Expenditure </td>
+		<td> Amount </td>
+</headers>
+	<rows>
+		<tr>
+			<td/>
+			<td> RIG OML DAILY RATE </td>
+			<td> <span class = 'cover-sheet-output' id='rig_oml_daily_rate'/></td>
+		</tr>	
+		<tr>
+			<td/>
+			<td> DEPRECIATION </td>
+			<td> <span class = 'cover-sheet-output' id='depreciation'/></td>
+		</tr>	
+		<tr>
+			<td/>
+			<td> INSURANCE </td>
+			<td> <span class = 'cover-sheet-output' id='insurance'/></td>
+		</tr>	
+		<tr>
+			<td/>
+			<td> GENEX DAILY RATE (LGBU) </td>
+			<td> <span class = 'cover-sheet-output' id='genex_daily_rate'/></td>
+		</tr>		
+		<tr>
+			<td/>
+			<td> THERMAPRIME </td>
+			<td> <span class = 'cover-sheet-output' id='thermaprime'/></td>
+		</tr>		
+		<tr>
+			<td/>
+			<td> DG </td>
+			<td> <span class = 'cover-sheet-output' id='DG'/></td>			
+		</tr>			
+		<tr>
+			<td/>
+			<td> INTER-ISLAND COST </td>
+			<td> <span class = 'cover-sheet-output' id='interisland_cost'/></td>
+		</tr>		
+	</rows>
+</cover_sheet_3>
+
+</table>

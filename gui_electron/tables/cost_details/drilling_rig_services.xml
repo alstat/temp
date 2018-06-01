@@ -1,0 +1,67 @@
+<table>
+    <drilling_rig_services_cost>
+         <headers>
+            <td>Equipment</td>
+            <td>Qty</td>
+            <td>Cost</td>
+            <td>RIGMOVE</td>
+            <td>DSURF</td>
+            <td>FSURF</td>
+            <td>DINTER</td>
+            <td>FINTER</td>
+            <td>DPROD</td>
+            <td>FPROD</td>
+            <td>DPL1</td>
+            <td>FPL1</td>
+            <td>DPL2</td>
+            <td>FPL2</td>		
+            <td>Total</td>
+        </headers>
+        <rows>
+            <tr>
+                <td>FIXED FEE - Rigmove</td>
+                <td/><td type="input" value="16721000.00" id="drilling-rig-cost-item0"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>DRILLING RIG SERVICES - Rigmob</td>
+                <td/><td type="input" value="1596000.00" id="drilling-rig-cost-item1"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>DRILLING RIG SERVICES - Base Rate @ 61 ROP</td>
+                <td/><td type="input" value="1596000.00" id="drilling-rig-cost-item2"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>DRILLING RIG SERVICES - Well Completion</td>
+                <td/><td type="input" value="1596000.00" id="drilling-rig-cost-item3"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>Additional Payment</td>
+                <td/><td type="input" value="44125.71" id="drilling-rig-cost-item4"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>No LIH/LTI/Environmental Incident Bonus</td>
+                <td/><td type="input" value="2000000.00" id="drilling-rig-cost-item5"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>ROP Bonus</td>
+                <td/><td type="input" value="1729350.00" id="drilling-rig-cost-item6"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>Peripherals</td>
+                <td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>Meals &amp; Accom</td>
+                <td/><td type="input" value="48116.18" id="drilling-rig-cost-item8"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td>Others: Drilling Peripherals</td>
+                <td/><td type="input" value="3403000.00" id="drilling-rig-cost-item9"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+            <tr>
+                <td><b>Total</b></td>
+                <td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+            </tr>
+        </rows>
+    </drilling_rig_services_cost>
+</table>

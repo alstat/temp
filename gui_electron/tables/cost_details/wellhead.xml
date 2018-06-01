@@ -1,0 +1,99 @@
+<table>
+
+<wellhead_cost_details_qty>
+	<headers>
+		<td>Quantities</td>
+		<td></td>
+		<td>Unit</td>
+		<td>RIGMOVE</td>
+		<td>DSURF</td>
+		<td>FSURF</td>
+		<td>DINTER</td>
+		<td>FINTER</td>
+		<td>DPROD</td>
+		<td>FPROD</td>
+		<td>DPL1</td>
+		<td>FPL1</td>
+		<td>DPL2</td>
+		<td>FPL2</td>	
+		<td>Total</td>		
+	</headers>
+	<rows>
+		<tr>
+			<td> 20-3/4" x 3M (900S) CASING HEAD FLANGE  </td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> 20-3/4" x 3M x 13-5/8" x 3M EXPANSION SPOOL </td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 12" x 900S MASTER VALVE  </td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> 3-1/8" x 3m WING VALVES</td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td>Bolts and gastkets  </td> 
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+	</rows>
+</wellhead_cost_details_qty>
+	
+<wellhead_cost_details_cost>
+	<headers>
+		<td>Quantities</td>
+		<td></td>
+		<td>Cost</td>
+		<td>RIGMOVE</td>
+		<td>DSURF</td>
+		<td>FSURF</td>
+		<td>DINTER</td>
+		<td>FINTER</td>
+		<td>DPROD</td>
+		<td>FPROD</td>
+		<td>DPL1</td>
+		<td>FPL1</td>
+		<td>DPL2</td>
+		<td>FPL2</td>	
+		<td>Total</td>		
+	</headers>
+	<rows>
+		<tr>
+			<td> 20-3/4" x 3M (900S) CASING HEAD FLANGE  </td> 
+			<td/><td type="input" value="0" id="wellhead-cost-item0"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> 20-3/4" x 3M x 13-5/8" x 3M EXPANSION SPOOL </td> 
+			<td/><td type="input" value="0" id="wellhead-cost-item1"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 12" x 900S MASTER VALVE  </td> 
+			<td/><td type="input" value="0" id="wellhead-cost-item2"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> 3-1/8" x 3m WING VALVES</td> 
+			<td/><td type="input" value="0" id="wellhead-cost-item3"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td>Bolts and gastkets</td> 
+			<td/><td type="input" value="0" id="wellhead-cost-item4"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td><b>Total</b></td>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+	</rows>
+</wellhead_cost_details_cost>
+</table>

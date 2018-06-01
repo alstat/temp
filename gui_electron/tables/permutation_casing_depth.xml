@@ -1,0 +1,193 @@
+<table>
+
+<analysis-base-cd>
+	<headers>
+		<td>Phases</td>
+		<td>Casing Depth</td>
+	</headers>
+	<rows>
+		<tr>
+			<td>Surface</td>
+			<td type="input" value="150" id="analysis-sh-cd-b"/>
+		</tr>
+		<tr>
+			<td>Intermediate</td>
+			<td type="input" value="750" id="analysis-ih-cd-b"/>
+		</tr>
+		<tr>
+			<td>Production Casing</td>
+			<td type="input" value="1400" id="analysis-dh-cd-b"/>
+		</tr>
+		<tr>
+			<td>Production Liner 1</td>
+			<td type="input" value="2200" id="analysis-ph1-cd-b"/>
+		</tr>
+		<tr>
+			<td>Production Liner 2</td>
+			<td type="input" value="3000" id="analysis-ph2-cd-b"/>
+		</tr>
+	</rows>
+</analysis-base-cd>
+
+<analysis-base-casing-given>
+	<headers>
+		<td></td>
+		<td>Days<sub>b</sub></td>
+		<td>Days<sub>1</sub></td>
+		<td>Days<sub>2</sub></td>
+		<td>Days<sub>3</sub></td>
+	</headers>
+	<rows>
+		<tr>
+			<td>AFE Costs</td>
+			<td type="input" id="analysis-cd-afe-day-b" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-cd-afe-day-1" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-cd-afe-day-2" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-cd-afe-day-3" class="afe-analysis-output" format="text"/>
+		</tr>
+		<tr>
+			<td>Total ROP</td>
+			<td type="input" id="analysis-cd-rop-day-b" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-cd-rop-day-1" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-cd-rop-day-2" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-cd-rop-day-3" class="afe-analysis-output" format="text"/>
+		</tr>
+	</rows>
+</analysis-base-casing-given>
+
+<analysis-base-cd-inc>
+	<headers>
+		<td>Depth<sub>1</sub></td>
+		<td>Depth<sub>2</sub></td>
+		<td>Depth<sub>3</sub></td>
+	</headers>
+	<rows>
+		<tr>
+			<td type="input" id="analysis-sh-cd-1"/>
+			<td type="input" id="analysis-sh-cd-2"/>
+			<td type="input" id="analysis-sh-cd-3"/>
+		</tr>
+		
+		<tr>
+			<td type="input" id="analysis-ih-cd-1"/>
+			<td type="input" id="analysis-ih-cd-2"/>
+			<td type="input" id="analysis-ih-cd-3"/>
+		</tr>
+
+		<tr>
+			<td type="input" id="analysis-dh-cd-1"/>
+			<td type="input" id="analysis-dh-cd-2"/>
+			<td type="input" id="analysis-dh-cd-3"/>
+		</tr>
+
+		<tr>
+			<td type="input" id="analysis-ph1-cd-1"/>
+			<td type="input" id="analysis-ph1-cd-2"/>
+			<td type="input" id="analysis-ph1-cd-3"/>
+		</tr>
+
+		<tr>
+			<td type="input" id="analysis-ph2-cd-1"/>
+			<td type="input" id="analysis-ph2-cd-2"/>
+			<td type="input" id="analysis-ph2-cd-3"/>
+		</tr>
+	</rows>
+</analysis-base-cd-inc>
+
+<analysis-base-cd-days>
+	<headers>
+		<td>Phases</td>
+		<td>Days<sub>b</sub></td>
+		<td>Days<sub>1</sub></td>
+		<td>Days<sub>2</sub></td>
+		<td>Days<sub>3</sub></td>
+	</headers>
+	<rows>
+		<tr>
+			<td>Surface</td>
+			<td type="input" id="analysis-cd-sh-day-b"/>
+			<td type="input" id="analysis-cd-sh-day-1"/>
+			<td type="input" id="analysis-cd-sh-day-2"/>
+			<td type="input" id="analysis-cd-sh-day-3"/>
+		</tr>
+		
+		<tr>
+			<td>Intermediate</td>
+			<td type="input" id="analysis-cd-ih-day-b"/>
+			<td type="input" id="analysis-cd-ih-day-1"/>
+			<td type="input" id="analysis-cd-ih-day-2"/>
+			<td type="input" id="analysis-cd-ih-day-3"/>
+		</tr>
+
+		<tr>
+			<td>Production Casing</td>
+			<td type="input" id="analysis-cd-dh-day-b"/>
+			<td type="input" id="analysis-cd-dh-day-1"/>
+			<td type="input" id="analysis-cd-dh-day-2"/>
+			<td type="input" id="analysis-cd-dh-day-3"/>
+		</tr>
+
+		<tr>
+			<td>Production Liner 1</td>
+			<td type="input" id="analysis-cd-ph1-day-b"/>
+			<td type="input" id="analysis-cd-ph1-day-1"/>
+			<td type="input" id="analysis-cd-ph1-day-2"/>
+			<td type="input" id="analysis-cd-ph1-day-3"/>
+		</tr>
+
+		<tr>
+			<td>Production Liner 2</td>
+			<td type="input" id="analysis-cd-ph2-day-b"/>
+			<td type="input" id="analysis-cd-ph2-day-1"/>
+			<td type="input" id="analysis-cd-ph2-day-2"/>
+			<td type="input" id="analysis-cd-ph2-day-3"/>
+		</tr>
+	</rows>
+</analysis-base-cd-days>
+
+<analysis-cd-afe>
+	<headers>
+		<td>AFE<sub>1</sub></td>
+		<td>Total ROP<sub>1</sub></td>
+		<td>AFE<sub>2</sub></td>
+		<td>Total ROP<sub>2</sub></td>
+	</headers>
+	<rows>
+		<tr>
+			<td type="input" id="analysis-cd-sh-afe-1" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-cd-sh-trop-1" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-cd-sh-afe-2" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-cd-sh-trop-2" class="afe-analysis-output" format="text"/>
+		</tr>
+		
+		<tr>
+			<td type="input" id="analysis-cd-ih-afe-1" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-cd-ih-trop-1" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-cd-ih-afe-2" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-cd-ih-trop-2" class="afe-analysis-output" format="text"/>
+		</tr>
+
+		<tr>
+			<td type="input" id="analysis-cd-dh-afe-1" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-cd-dh-trop-1" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-cd-dh-afe-2" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-cd-dh-trop-2" class="afe-analysis-output" format="text"/>
+		</tr>
+
+		<tr>
+			<td type="input" id="analysis-cd-ph1-afe-1" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-cd-ph1-trop-1" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-cd-ph1-afe-2" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-cd-ph1-trop-2" class="afe-analysis-output" format="text"/>
+		</tr>
+
+		<tr>
+			<td type="input" id="analysis-cd-ph2-afe-1" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-cd-ph2-trop-1" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-cd-ph2-afe-2" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-cd-ph2-trop-2" class="afe-analysis-output" format="text"/>
+		</tr>
+	</rows>
+</analysis-cd-afe>
+
+</table>

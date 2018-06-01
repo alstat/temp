@@ -1,0 +1,337 @@
+<table>
+
+<rockbits_cost_details_smith_cost>
+	<headers>
+		<td>Quantities</td>
+		<td></td>
+		<td>Cost<sup>1</sup></td>
+		<td>RIGMOVE</td>
+		<td>DSURF</td>
+		<td>FSURF</td>
+		<td>DINTER</td>
+		<td>FINTER</td>
+		<td>DPROD</td>
+		<td>FPROD</td>
+		<td>DPL1</td>
+		<td>FPL1</td>
+		<td>DPL2</td>
+		<td>FPL2</td>	
+		<td>Total</td>		
+		
+	</headers>
+	<rows>
+		<tr>
+			<td> 32"  TCI Cutters (3 pcs) </td>
+			<td/><td type="input" value="36" id="rockbits-smith-cost-item0"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 26" x Tricone IADC Code 515 </td>
+			<td/><td type="input" value="36" id="rockbits-smith-cost-item1"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> 23" x Tricone IADC Code 515 </td>
+			<td/><td type="input" value="36" id="rockbits-smith-cost-item2"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> 17 " x Tricone IADC Code 525 </td>
+			<td/><td type="input" value="36" id="rockbits-smith-cost-item3"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> 17 " x Tricone IADC Code 615 </td>
+			<td/><td type="input" value="36" id="rockbits-smith-cost-item4"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> 12.25 " x PDC PDC BIT </td>
+			<td/><td type="input" value="36" id="rockbits-smith-cost-item5"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 12.25 " x Tricone IADC 217 </td>
+			<td/><td type="input" value="36" id="rockbits-smith-cost-item6"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> 12.25 " x Tricone IADC 517 </td>
+			<td/><td type="input" value="36" id="rockbits-smith-cost-item7"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 12.25 " x Tricone IADC 537 </td>
+			<td/><td type="input" value="36" id="rockbits-smith-cost-item8"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 12.25 " x Tricone IADC 547 </td>
+			<td/><td type="input" value="36" id="rockbits-smith-cost-item9"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 12.25 " x Tricone IADC 637 </td>
+			<td/><td type="input" value="36" id="rockbits-smith-cost-item10"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 9-7/8 " x PDC PDC Bit </td>
+			<td/><td type="input" value="36" id="rockbits-smith-cost-item11"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 9-7/8 " x Tricone IADC 117/217 </td>
+			<td/><td type="input" value="36" id="rockbits-smith-cost-item12"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 9-7/8 " x Tricone IADC 517 </td>
+			<td/><td type="input" value="36" id="rockbits-smith-cost-item13"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 9-7/8 " x Tricone IADC 537 </td>
+			<td/><td type="input" value="36" id="rockbits-smith-cost-item14"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 9-7/8 " x Tricone IADC 637 </td>
+			<td/><td type="input" value="36" id="rockbits-smith-cost-item15"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 8.5 " x PDC PDC BIT  </td>
+			<td/><td type="input" value="36" id="rockbits-smith-cost-item16"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 8.5 " x Tricone IADC 117 / 217  </td>
+			<td/><td type="input" value="36" id="rockbits-smith-cost-item17"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> 8.5 " x Tricone IADC 637 </td>
+			<td/><td type="input" value="36" id="rockbits-smith-cost-item18"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 7-7/8 " x PDC PDC Bit </td>
+			<td/><td type="input" value="36" id="rockbits-smith-cost-item19"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 7-7/8 " x Tricone IADC 217 </td>
+			<td/><td type="input" value="36" id="rockbits-smith-cost-item20"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 7-7/8 " x Tricone IADC 517 </td>
+			<td/><td type="input" value="36" id="rockbits-smith-cost-item21"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 7-7/8 " x Tricone IADC 537 </td>
+			<td/><td type="input" value="36" id="rockbits-smith-cost-item22"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 7-7/8 " x Tricone IADC 637 </td>
+			<td/><td type="input" value="36" id="rockbits-smith-cost-item23"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 6-1/8" x Tricone IADC Code 200/300 </td>
+			<td/><td type="input" value="36" id="rockbits-smith-cost-item24"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 6-1/8" x Tricone IADC Code 500/600 </td>
+			<td/><td type="input" value="36" id="rockbits-smith-cost-item25"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 6" x Tricone IADC Code 200/300 </td>
+			<td/><td type="input" value="36" id="rockbits-smith-cost-item26"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 6" x Tricone IADC Code 500/600 </td>
+			<td/><td type="input" value="36" id="rockbits-smith-cost-item27"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td><b>Total</b></td>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+	</rows>
+</rockbits_cost_details_smith_cost>	
+
+<rockbits_cost_details_hughes_cost>
+	<headers>
+		<td>Quantities</td>
+		<td></td>
+		<td>Cost<sup>1</sup></td>
+		<td>RIGMOVE</td>
+		<td>DSURF</td>
+		<td>FSURF</td>
+		<td>DINTER</td>
+		<td>FINTER</td>
+		<td>DPROD</td>
+		<td>FPROD</td>
+		<td>DPL1</td>
+		<td>FPL1</td>
+		<td>DPL2</td>
+		<td>FPL2</td>	
+		<td>Total</td>		
+		
+	</headers>
+<rows>
+		<tr>
+			<td> 32"  TCI Cutters (3 pcs) </td>
+			<td/><td type="input" value="36" id="rockbits-hughes-cost-item0"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 26" x Tricone IADC Code 515 </td>
+			<td/><td type="input" value="36" id="rockbits-hughes-cost-item1"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> 23" x Tricone IADC Code 515 </td>
+			<td/><td type="input" value="36" id="rockbits-hughes-cost-item2"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> 17 " x Tricone IADC Code 525 </td>
+			<td/><td type="input" value="36" id="rockbits-hughes-cost-item3"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> 17 " x Tricone IADC Code 615 </td>
+			<td/><td type="input" value="36" id="rockbits-hughes-cost-item4"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> 12.25 " x PDC PDC BIT </td>
+			<td/><td type="input" value="36" id="rockbits-hughes-cost-item5"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 12.25 " x Tricone IADC 217 </td>
+			<td/><td type="input" value="36" id="rockbits-hughes-cost-item6"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> 12.25 " x Tricone IADC 517 </td>
+			<td/><td type="input" value="36" id="rockbits-hughes-cost-item7"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 12.25 " x Tricone IADC 537 </td>
+			<td/><td type="input" value="36" id="rockbits-hughes-cost-item8"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 12.25 " x Tricone IADC 547 </td>
+			<td/><td type="input" value="36" id="rockbits-hughes-cost-item9"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 12.25 " x Tricone IADC 637 </td>
+			<td/><td type="input" value="36" id="rockbits-hughes-cost-item10"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 9-7/8 " x PDC PDC Bit </td>
+			<td/><td type="input" value="36" id="rockbits-hughes-cost-item11"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 9-7/8 " x Tricone IADC 117/217 </td>
+			<td/><td type="input" value="36" id="rockbits-hughes-cost-item12"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 9-7/8 " x Tricone IADC 517 </td>
+			<td/><td type="input" value="36" id="rockbits-hughes-cost-item13"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 9-7/8 " x Tricone IADC 537 </td>
+			<td/><td type="input" value="36" id="rockbits-hughes-cost-item14"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 9-7/8 " x Tricone IADC 637 </td>
+			<td/><td type="input" value="36" id="rockbits-hughes-cost-item15"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 8.5 " x PDC PDC BIT  </td>
+			<td/><td type="input" value="36" id="rockbits-hughes-cost-item16"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 8.5 " x Tricone IADC 117 / 217  </td>
+			<td/><td type="input" value="36" id="rockbits-hughes-cost-item17"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+		
+		<tr>
+			<td> 8.5 " x Tricone IADC 637 </td>
+			<td/><td type="input" value="36" id="rockbits-hughes-cost-item18"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 7-7/8 " x PDC PDC Bit </td>
+			<td/><td type="input" value="36" id="rockbits-hughes-cost-item19"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 7-7/8 " x Tricone IADC 217 </td>
+			<td/><td type="input" value="36" id="rockbits-hughes-cost-item20"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 7-7/8 " x Tricone IADC 517 </td>
+			<td/><td type="input" value="36" id="rockbits-hughes-cost-item21"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 7-7/8 " x Tricone IADC 537 </td>
+			<td/><td type="input" value="36" id="rockbits-hughes-cost-item22"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 7-7/8 " x Tricone IADC 637 </td>
+			<td/><td type="input" value="36" id="rockbits-hughes-cost-item23"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 6-1/8" x Tricone IADC Code 200/300 </td>
+			<td/><td type="input" value="36" id="rockbits-hughes-cost-item24"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 6-1/8" x Tricone IADC Code 500/600 </td>
+			<td/><td type="input" value="36" id="rockbits-hughes-cost-item25"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 6" x Tricone IADC Code 200/300 </td>
+			<td/><td type="input" value="36" id="rockbits-hughes-cost-item26"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 6" x Tricone IADC Code 500/600 </td>
+			<td/><td type="input" value="36" id="rockbits-hughes-cost-item27"/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td><b>Total</b></td>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+	</rows>
+	</rockbits_cost_details_hughes_cost>
+
+</table>

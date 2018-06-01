@@ -1,0 +1,338 @@
+<table>
+
+<inputs_1>
+<headers>
+		<td> Variables </td>
+		<td> Values </td>
+</headers>
+		
+	<rows>
+		<tr>
+			<td> Total Days<sup>2</sup> </td>
+			<td value="58" id="total_days" type="input" format="text"/>
+		</tr>
+		<tr>
+			<td> Drilling Days<sup>2</sup> </td>
+			<td value="45" id="drilling_days" type="input" format="text"/>
+		</tr>
+		<tr>
+			<td> Target ROP<sup>2</sup> </td>
+			<td value="50.00" id="target_rop" type="input" format="text"/>
+		</tr>
+		<tr>
+			<td> Project Location  </td>
+			<td id="project_location" type="values" options="LGBU, BGBU, NIGBU, MAGBU"/>
+		</tr>
+		<tr>
+			<td> Rig Move From  </td>
+			<td id="rig_move_from" type="values" options="PAD, PROJECT, SAME PAD"/>
+		</tr>
+		<tr>
+			<td> Rig Move Days  </td>
+			<td value="13" id="rig_move_days" type="input"/>
+		</tr>
+
+		<tr>
+			<td> DHV 1  </td>
+			<td id="dhv_1" type="values" options="No, Yes"/>
+		</tr>	
+
+		<tr>
+			<td> DHV 2  </td>
+			<td id="dhv_2" type="values" options="0, 1"/>
+		</tr>	
+		<tr>
+			<td> PWD FLINER 1  </td>
+			<td id="pwd_fliner_1" type="values" options="Yes, No"/>
+		</tr>	
+		<tr>
+			<td> PWD FLINER 2  </td>
+			<td id="pwd_fliner_2" type="values" options="Yes, No"/>
+		</tr>	
+		<tr>
+			<td> CHF  </td>
+			<td id="chf" type="values" options="TESCO, DESCO"/>
+		</tr>	
+		<tr>
+			<td> MUD Logging  </td>
+			<td id="mud_logging" type="values" options="Yes, No"/>
+		</tr>	
+		<tr>
+			<td> Formation Evaluation FLINER 1  </td>
+			<td id="formation_eval_fliner_1" type="values" options="No, Yes"/>
+		</tr>	
+		<tr>
+			<td> Formation Evaluation FLINER 2  </td>
+			<td id="formation_eval_fliner_2" type="values" options="No, Yes"/>
+		</tr>	
+		<tr>
+			<td> <s>Reline</s> (with bug) </td>
+			<td id="reline" type="values" options="No, Yes"/>
+		</tr>	
+		<tr>
+			<td> FOREX, PHP/US </td>
+			<td value="51.00" id="forex_php_us" type="input"/>
+		</tr>
+		<tr>
+			<td> Diesel, PHP/US </td>
+			<td  value="36.00" id="diesel_php_us" type="input"/>
+		</tr>
+</rows>
+</inputs_1>
+
+<hole_case_asmpt>
+	<headers>
+		<td>Phases</td>
+		<td>Big Hole<sup>1</sup></td>
+		<td>Regular Hole<sup>1</sup></td>
+		<td>Big Hole<sup>2</sup></td>
+		<td>Regular Hole<sup>2</sup></td>
+	</headers>
+	<rows>
+		<tr>
+			<td>Surface</td>
+			<td type = 'input' id = 'hole_bh_surface' value = '32'/>
+			<td type = 'input' id = 'hole_rh_surface' value = '26'/>
+			<td type = 'input' id = 'case_bh_surface' value = '26'/>
+			<td type = 'input' id = 'case_rh_surface' value = '20'/>
+		</tr>
+		<tr>
+			<td>Intermediate</td>
+			<td type = 'input' id = 'hole_bh_intermediate' value = '23'/>
+			<td type = 'input' id = 'hole_rh_intermediate' value = '17'/>
+			<td type = 'input' id = 'case_bh_intermediate' value = '18.625'/>
+			<td type = 'input' id = 'case_rh_intermediate' value = '13.375'/>
+		</tr>
+		<tr>
+			<td>Production Casing</td>
+			<td type = 'input' id = 'hole_bh_prodn_casing' value = '17'/>
+			<td type = 'input' id = 'hole_rh_prodn_casing' value = '12.25'/>
+			<td type = 'input' id = 'case_bh_prodn_casing' value = '13.375'/>
+			<td type = 'input' id = 'case_rh_prodn_casing' value = '9.625'/>
+		</tr>
+		<tr>
+			<td>Production Liner 1</td>
+			<td type = 'input' id = 'hole_bh_prodn_liner_1' value = '12.25'/>
+			<td type = 'input' id = 'hole_rh_prodn_liner_1' value = '8.5'/>
+			<td type = 'input' id = 'case_bh_prodn_liner_1' value = '10.75'/>
+			<td type = 'input' id = 'case_rh_prodn_liner_1' value = '7'/>
+		</tr>
+		<tr>
+			<td>Production Liner 2</td>
+			<td type = 'input' id = 'hole_bh_prodn_liner_2' value = '9.875'/>
+			<td type = 'input' id = 'hole_rh_prodn_liner_2' value = '6'/>
+			<td type = 'input' id = 'case_bh_prodn_liner_2' value = '8.625'/>
+			<td type = 'input' id = 'case_rh_prodn_liner_2' value = '5'/>
+		</tr>
+		<tr>
+			<td>Production Liner 3</td>
+			<td type = 'input' id = 'hole_bh_prodn_liner_3' value = '7.875'/>
+			<td type = 'input' id = 'hole_rh_prodn_liner_3' value = ''/>
+			<td type = 'input' id = 'case_bh_prodn_liner_3' value = '7'/>
+			<td type = 'input' id = 'case_rh_prodn_liner_3' value = ''/>
+		</tr>
+	</rows>
+</hole_case_asmpt>
+
+<other_hole_case_asmpt>
+	<headers>
+		<td>Phases</td>
+		<td>Hole</td>
+		<td>Case</td>
+		<td>ID</td>
+	</headers>
+	<rows>
+		<tr>
+			<td>Surface</td>
+			<td type = 'input' id = 'other_hole_asmpt_surface' value = '32'/>
+			<td type = 'input' id = 'other_case_asmpt_surface' value = '26'/>
+			<td type = 'input' id = 'other_id_asmpt_surface' value = '24.5'/>
+		</tr>
+		<tr>
+			<td>Intermediate</td>
+			<td type = 'input' id = 'other_hole_asmpt_intermediate' value = '23'/>
+			<td type = 'input' id = 'other_case_asmpt_intermediate' value = '18.625'/>
+			<td type = 'input' id = 'other_id_asmpt_intermediate' value = '17.467'/>
+		</tr>
+		<tr>
+			<td>Production Casing</td>
+			<td type = 'input' id = 'other_hole_asmpt_prodn_casing' value = '17'/>
+			<td type = 'input' id = 'other_case_asmpt_prodn_casing' value = '13.375'/>
+			<td type = 'input' id = 'other_id_asmpt_prodn_casing' value = '12.415'/>
+		</tr>
+		<tr>
+			<td>Production Liner 1</td>
+			<td type = 'input' id = 'other_hole_asmpt_prodn_liner_1' value = '12.25'/>
+			<td type = 'input' id = 'other_case_asmpt_prodn_liner_1' value = '10.75'/>
+			<td type = 'input' id = 'other_id_asmpt_prodn_liner_1' value = '10.05'/>
+		</tr>
+		<tr>
+			<td>Production Liner 2</td>
+			<td type = 'input' id = 'other_hole_asmpt_prodn_liner_2' value = '12.25'/>
+			<td type = 'input' id = 'other_case_asmpt_prodn_liner_2' value = '9.625'/>
+			<td type = 'input' id = 'other_id_asmpt_prodn_liner_2' value = '8.755'/>
+		</tr>
+		<tr>
+			<td>Production Liner 3</td>
+			<td type = 'input' id = 'other_hole_asmpt_prodn_liner_3' value = '9.875'/>
+			<td type = 'input' id = 'other_case_asmpt_prodn_liner_3' value = '8.625'/>
+			<td type = 'input' id = 'other_id_asmpt_prodn_liner_3' value = '8.097'/>
+		</tr>
+		<tr>
+			<td></td>
+			<td type = 'input' id = 'other_hole_asmpt_no_label_1' value = '7.875'/>
+			<td type = 'input' id = 'other_case_asmpt_no_label_1' value = '7'/>
+			<td type = 'input' id = 'other_id_asmpt_no_label_1' value = '6.366'/>
+		</tr>
+		<tr>
+			<td></td>
+			<td type = 'input' id = 'other_hole_asmpt_no_label_2' value = '8.5'/>
+			<td type = 'input' id = 'other_case_asmpt_no_label_2' value = '7'/>
+			<td type = 'input' id = 'other_id_asmpt_no_label_2' value = '6.276'/>
+		</tr>
+		<tr>
+			<td></td>
+			<td type = 'input' id = 'other_hole_asmpt_no_label_3' value = '6'/>
+			<td type = 'input' id = 'other_case_asmpt_no_label_3' value = '5'/>
+			<td type = 'input' id = 'other_id_asmpt_no_label_3' value = '4.408'/>
+		</tr>
+	</rows>
+</other_hole_case_asmpt>
+
+<casing_id>
+	<headers>
+		<td>Phases</td>
+		<td>Big Hole</td>
+		<td>Regular Hole</td>
+	</headers>
+	<rows>
+		<tr>
+			<td>Surface</td>
+			<td type = 'input' id = 'casing_id_bh_surface' value = '24.5'/>
+			<td type = 'input' id = 'casing_id_rh_surface' value = '19.312'/>
+		</tr>
+		<tr>
+			<td>Intermediate</td>
+			<td type = 'input' id = 'casing_id_bh_intermediate' value = '17.467'/>
+			<td type = 'input' id = 'casing_id_rh_intermediate' value = '12.615'/>
+		</tr>
+		<tr>
+			<td>Production Casing</td>
+			<td type = 'input' id = 'casing_id_bh_prodn_casing' value = '12.415'/>
+			<td type = 'input' id = 'casing_id_rh_prodn_casing' value = '8.755'/>
+		</tr>
+		<tr>
+			<td>Production Liner 1</td>
+			<td type = 'input' id = 'casing_id_bh_prodn_liner_1' value = '10.05'/>
+			<td type = 'input' id = 'casing_id_rh_prodn_liner_1' value = '6.276'/>
+		</tr>
+		<tr>
+			<td>Production Liner 2</td>
+			<td type = 'input' id = 'casing_id_bh_prodn_liner_2' value = '8.097'/>
+			<td type = 'input' id = 'casing_id_rh_prodn_liner_2' value = '4.408'/>
+		</tr>
+		<tr>
+			<td>Production Liner 3</td>
+			<td type = 'input' id = 'casing_id_bh_prodn_liner_3' value = '6.366'/>
+			<td type = 'input' id = 'casing_id_rh_prodn_liner_3' value = ''/>
+		</tr>
+		<tr>
+			<td>Reline</td>
+			<td type = 'input' id = 'casing_id_bh_reline' value = ''/>
+			<td type = 'input' id = 'casing_id_rh_reline' value = ''/>
+		</tr>
+	</rows>
+</casing_id>
+
+<cement_acid>
+	<headers>
+		<td>Phases</td>
+		<td>Cement</td>
+		<td>Acid</td>
+		<td>Top Job</td>
+	</headers>
+	<rows>
+		<tr>
+			<td>Surface</td>
+			<td type = 'input' id = 'cement_surface' value = '2'/>
+			<td type = 'values' id = 'acid_surface' options = "No, Yes, ''"/>
+			<td type = 'input' id = 'top_job_surface' value = '0'/>			
+		</tr>
+		<tr>
+			<td>Intermediate</td>
+			<td type = 'input' id = 'cement_intermediate' value = ''/>
+			<td type = 'values' id = 'acid_intermediate' options = "No, Yes, ''"/>
+			<td type = 'input' id = 'top_job_intermediate' value = '1'/>			
+		</tr>
+		<tr>
+			<td>Production Casing</td>
+			<td type = 'input' id = 'cement_prodn_casing' value = ''/>
+			<td type = 'values' id = 'acid_prodn_casing' options = "No, Yes, ''"/>
+			<td type = 'input' id = 'top_job_prodn_casing' value = '1'/>			
+		</tr>
+		<tr>
+			<td>Production Liner 1</td>
+			<td type = 'input' id = 'cement_prodn_liner_1' value = '1'/>
+			<td type = 'values' id = 'acid_prodn_liner_1' options = "'', Yes, No"/>
+			<td type = 'input' id = 'top_job_prodn_liner_1' value = '0'/>			
+		</tr>
+		<tr>
+			<td>Production Liner 2</td>
+			<td type = 'input' id = 'cement_prodn_liner_2' value = ''/>
+			<td type = 'values' id = 'acid_prodn_liner_2' options = "'', Yes, No"/>
+			<td type = 'input' id = 'top_job_prodn_liner_2' value = '0'/>			
+		</tr>
+		<tr>
+			<td>Production Liner 3</td>
+			<td type = 'input' id = 'cement_prodn_liner_3' value = ''/>
+			<td type = 'values' id = 'acid_prodn_liner_3' options = "'', Yes, No"/>
+			<td type = 'input' id = 'top_job_prodn_liner_3' value = '0'/>			
+		</tr>
+	</rows>
+</cement_acid>
+
+<tpwsri>
+	<headers>
+		<td>Rates and Renumeration</td>
+		<td>Cost</td>
+	</headers>
+	<rows>
+		<tr>
+			<td>Average ROP Day Rate</td>
+			<td type = 'input' id = 'tpwsri_ave_rop_rate' value = ''/>
+		</tr>
+		<tr>
+			<td>Base Day Rate</td>
+			<td type = 'input' id = 'tpwsri_base_day_rate' value = '1596000'/>
+		</tr>
+		<tr>
+			<td>Standby Rate</td>
+			<td type = 'input' id = 'tpwsri_standby_rate' value = '1449000'/>
+		</tr>
+		<tr>
+			<td>Move Fee</td>
+			<td type = 'input' id = 'tpwsri_movefee' value = '16721000'/>
+		</tr>
+		<tr>
+			<td>Rig Move Rate</td>
+			<td type = 'input' id = 'tpwsri_rigmove_rate' value = '20748000'/>
+		</tr>
+		<tr>
+			<td>Additional Payment</td>
+			<td type = 'input' id = 'tpwsri_additional_payment' value = '16105885.68'/>
+		</tr>
+		<tr>
+			<td>Penalty Payment</td>
+			<td type = 'input' id = 'tpwsri_penalty_payment' value = ''/>
+		</tr>
+		<tr>
+			<td>Well Bonus</td>
+			<td type = 'input' id = 'tpwsri_well_bonus' value = '2000000'/>
+		</tr>
+		<tr>
+			<td>Well ROP Bonus</td>
+			<td type = 'input' id = 'tpwsri_well_rop_bonus' value = ''/>
+		</tr>
+	</rows>
+</tpwsri>
+</table>

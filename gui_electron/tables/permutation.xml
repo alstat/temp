@@ -1,0 +1,199 @@
+<table>
+
+<analysis-base-rop>
+	<headers>
+		<td>Phases</td>
+		<td>Casing Depth</td>
+	</headers>
+	<rows>
+		<tr>
+			<td>Surface</td>
+			<td type="input" value="150" id="analysis-rop-sh-cd"/>
+		</tr>
+		<tr>
+			<td>Intermediate</td>
+			<td type="input" value="750" id="analysis-rop-ih-cd"/>
+		</tr>
+		<tr>
+			<td>Production Casing</td>
+			<td type="input" value="1400" id="analysis-rop-dh-cd"/>
+		</tr>
+		<tr>
+			<td>Production Liner 1</td>
+			<td type="input" value="2200" id="analysis-rop-ph1-cd"/>
+		</tr>
+		<tr>
+			<td>Production Liner 2</td>
+			<td type="input" value="3000" id="analysis-rop-ph2-cd"/>
+		</tr>
+	</rows>
+</analysis-base-rop>
+
+<analysis-base-rop-inc>
+	<headers>
+		<td>ROP<sub>b</sub></td>
+		<td>ROP<sub>1</sub></td>
+		<td>ROP<sub>2</sub></td>
+		<td>ROP<sub>3</sub></td>
+	</headers>
+	<rows>
+		<tr>
+			<td type="input" id="analysis-rop-sh-inc-b"/>
+			<td type="input" id="analysis-rop-sh-inc-1"/>
+			<td type="input" id="analysis-rop-sh-inc-2"/>
+			<td type="input" id="analysis-rop-sh-inc-3"/>
+		</tr>
+		
+		<tr>
+			<td type="input" id="analysis-rop-ih-inc-b"/>
+			<td type="input" id="analysis-rop-ih-inc-1"/>
+			<td type="input" id="analysis-rop-ih-inc-2"/>
+			<td type="input" id="analysis-rop-ih-inc-3"/>
+		</tr>
+
+		<tr>
+			<td type="input" id="analysis-rop-dh-inc-b"/>
+			<td type="input" id="analysis-rop-dh-inc-1"/>
+			<td type="input" id="analysis-rop-dh-inc-2"/>
+			<td type="input" id="analysis-rop-dh-inc-3"/>
+		</tr>
+
+		<tr>
+			<td type="input" id="analysis-rop-ph1-inc-b"/>
+			<td type="input" id="analysis-rop-ph1-inc-1"/>
+			<td type="input" id="analysis-rop-ph1-inc-2"/>
+			<td type="input" id="analysis-rop-ph1-inc-3"/>
+		</tr>
+
+		<tr>
+			<td type="input" id="analysis-rop-ph2-inc-b"/>
+			<td type="input" id="analysis-rop-ph2-inc-1"/>
+			<td type="input" id="analysis-rop-ph2-inc-2"/>
+			<td type="input" id="analysis-rop-ph2-inc-3"/>
+		</tr>
+	</rows>
+</analysis-base-rop-inc>
+
+<analysis-base-rop-days>
+	<headers>
+		<td>Phases</td>
+		<td>Days<sub>b</sub></td>
+		<td>Days<sub>1</sub></td>
+		<td>Days<sub>2</sub></td>
+		<td>Days<sub>3</sub></td>
+	</headers>
+	<rows>
+		<tr>
+			<td>Surface</td>
+			<td type="input" id="analysis-rop-sh-day-b"/>
+			<td type="input" id="analysis-rop-sh-day-1"/>
+			<td type="input" id="analysis-rop-sh-day-2"/>
+			<td type="input" id="analysis-rop-sh-day-3"/>
+		</tr>
+		
+		<tr>
+			<td>Intermediate</td>
+			<td type="input" id="analysis-rop-ih-day-b"/>
+			<td type="input" id="analysis-rop-ih-day-1"/>
+			<td type="input" id="analysis-rop-ih-day-2"/>
+			<td type="input" id="analysis-rop-ih-day-3"/>
+		</tr>
+
+		<tr>
+			<td>Production Casing</td>
+			<td type="input" id="analysis-rop-dh-day-b"/>
+			<td type="input" id="analysis-rop-dh-day-1"/>
+			<td type="input" id="analysis-rop-dh-day-2"/>
+			<td type="input" id="analysis-rop-dh-day-3"/>
+		</tr>
+
+		<tr>
+			<td>Production Liner 1</td>
+			<td type="input" id="analysis-rop-ph1-day-b"/>
+			<td type="input" id="analysis-rop-ph1-day-1"/>
+			<td type="input" id="analysis-rop-ph1-day-2"/>
+			<td type="input" id="analysis-rop-ph1-day-3"/>
+		</tr>
+
+		<tr>
+			<td>Production Liner 2</td>
+			<td type="input" id="analysis-rop-ph2-day-b"/>
+			<td type="input" id="analysis-rop-ph2-day-1"/>
+			<td type="input" id="analysis-rop-ph2-day-2"/>
+			<td type="input" id="analysis-rop-ph2-day-3"/>
+		</tr>
+	</rows>
+</analysis-base-rop-days>
+
+<analysis-base-rop-given>
+	<headers>
+		<td></td>
+		<td>Days<sub>b</sub></td>
+		<td>Days<sub>1</sub></td>
+		<td>Days<sub>2</sub></td>
+		<td>Days<sub>3</sub></td>
+	</headers>
+	<rows>
+		<tr>
+			<td>AFE Costs</td>
+			<td type="input" id="analysis-rop-afe-day-b" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-rop-afe-day-1" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-rop-afe-day-2" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-rop-afe-day-3" class="afe-analysis-output" format="text"/>
+		</tr>
+		<tr>
+			<td>Total ROP</td>
+			<td type="input" id="analysis-rop-rop-day-b" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-rop-rop-day-1" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-rop-rop-day-2" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-rop-rop-day-3" class="afe-analysis-output" format="text"/>
+		</tr>
+	</rows>
+</analysis-base-rop-given>
+
+<analysis-rop-afe>
+	<headers>
+		<td>AFE<sub>1</sub></td>
+		<td>Total ROP<sub>1</sub></td>
+		<td>AFE<sub>2</sub></td>
+		<td>Total ROP<sub>2</sub></td>
+	</headers>
+	<rows>
+		<tr>
+			<td type="input" id="analysis-rop-sh-afe-1" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-rop-sh-trop-1" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-rop-sh-afe-2" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-rop-sh-trop-2" class="afe-analysis-output" format="text"/>
+		</tr>
+		
+		<tr>
+			<td type="input" id="analysis-rop-ih-afe-1" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-rop-ih-trop-1" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-rop-ih-afe-2" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-rop-ih-trop-2" class="afe-analysis-output" format="text"/>
+		</tr>
+
+		<tr>
+			<td type="input" id="analysis-rop-dh-afe-1" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-rop-dh-trop-1" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-rop-dh-afe-2" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-rop-dh-trop-2" class="afe-analysis-output" format="text"/>
+		</tr>
+
+		<tr>
+			<td type="input" id="analysis-rop-ph1-afe-1" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-rop-ph1-trop-1" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-rop-ph1-afe-2" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-rop-ph1-trop-2" class="afe-analysis-output" format="text"/>
+		</tr>
+
+		<tr>
+			<td type="input" id="analysis-rop-ph2-afe-1" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-rop-ph2-trop-1" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-rop-ph2-afe-2" class="afe-analysis-output" format="text"/>
+			<td type="input" id="analysis-rop-ph2-trop-2" class="afe-analysis-output" format="text"/>
+		</tr>
+	</rows>
+</analysis-rop-afe>
+
+</table>

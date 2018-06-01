@@ -1,0 +1,72 @@
+<table>
+
+<drilling_supplies_cost_details_qty>
+	<headers>
+		<td>Quantities</td>
+		<td></td>
+		<td>Unit</td>
+		<td>RIGMOVE</td>
+		<td>DSURF</td>
+		<td>FSURF</td>
+		<td>DINTER</td>
+		<td>FINTER</td>
+		<td>DPROD</td>
+		<td>FPROD</td>
+		<td>DPL1</td>
+		<td>FPL1</td>
+		<td>DPL2</td>
+		<td>FPL2</td>	
+		<td>Total</td>		
+
+	</headers>
+	<rows>
+		<tr>
+			<td> Shale Shaker Screens </td><td/><td> piece </td>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 32" TCI Cutters </td><td/><td> set </td>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+	</rows>
+</drilling_supplies_cost_details_qty>
+	
+
+<drilling_supplies_cost_details_cost>
+	<headers>
+		<td>Quantities</td>
+		<td></td>
+		<td>Cost</td>
+		<td>RIGMOVE</td>
+		<td>DSURF</td>
+		<td>FSURF</td>
+		<td>DINTER</td>
+		<td>FINTER</td>
+		<td>DPROD</td>
+		<td>FPROD</td>
+		<td>DPL1</td>
+		<td>FPL1</td>
+		<td>DPL2</td>
+		<td>FPL2</td>	
+		<td>Total</td>		
+
+	</headers>
+	<rows>
+		<tr>
+			<td> Shale Shaker Screens </td><td/><td type="input" value="36" id="drilling-supplies-cost-item0"/>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td> 32" TCI Cutters </td><td/><td type="input" value="36" id="drilling-supplies-cost-item1"/>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+
+		<tr>
+			<td><b>Total</b></td>
+			<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+		</tr>
+	</rows>
+	</drilling_supplies_cost_details_cost>
+</table>

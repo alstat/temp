@@ -1,0 +1,420 @@
+<table>
+
+<cost_details_qty>
+	<headers>
+		<td> Equipment 		</td>
+		<td> QTY 			</td>
+		<td> Liters Per Day </td>
+		<td> RIGMOVE		</td>
+		<td> DSURFACE		</td>
+		<td> FSURFACE		</td>
+		<td> DINTERMEDIATE	</td>
+		<td> FINTERMEDIATE	</td>
+		<td> DPRODUCTION	</td>
+		<td> FPRODUCTION	</td>
+		<td> DLINER1		</td>
+		<td> FLINER1		</td>
+		<td> FLINER2		</td>
+		<td> FLINER3		</td>		
+		<td> TOTAL LITERS		</td>		
+		
+	</headers>
+	<rows>
+		<tr>
+			<td> Rig </td>
+			<td id="fuel_qty_01_qty" type="input"/>
+			<td id="fuel_qty_01_liters_per_day" type="input"/>
+			<td id="fuel_qty_01_rigmove" type="input"/>
+			<td id="fuel_qty_01_dsurface" type="input"/>
+			<td id="fuel_qty_01_fsurface" type="input"/>
+			<td id="fuel_qty_01_dintermediate" type="input"/>
+			<td id="fuel_qty_01_fintermediate" type="input"/>
+			<td id="fuel_qty_01_dproduction" type="input"/>
+			<td id="fuel_qty_01_fproduction" type="input"/>
+			<td id="fuel_qty_01_dliner1" type="input"/>
+			<td id="fuel_qty_01_fliner1" type="input"/>
+			<td id="fuel_qty_01_fliner2" type="input"/>
+			<td id="fuel_qty_01_fliner3" type="input"/>
+			<td id="fuel_qty_01_total_liters" type="input"/>
+		</tr>
+		
+				<tr>
+			<td> Air Drilling Equipment </td>
+			<td id="fuel_qty_02_qty" type="input"/>
+			<td id="fuel_qty_02_liters_per_day" type="input"/>
+			<td id="fuel_qty_02_rigmove" type="input"/>
+			<td id="fuel_qty_02_dsurface" type="input"/>
+			<td id="fuel_qty_02_fsurface" type="input"/>
+			<td id="fuel_qty_02_dintermediate" type="input"/>
+			<td id="fuel_qty_02_fintermediate" type="input"/>
+			<td id="fuel_qty_02_dproduction" type="input"/>
+			<td id="fuel_qty_02_fproduction" type="input"/>
+			<td id="fuel_qty_02_dliner1" type="input"/>
+			<td id="fuel_qty_02_fliner1" type="input"/>
+			<td id="fuel_qty_02_fliner2" type="input"/>
+			<td id="fuel_qty_02_fliner3" type="input"/>
+			<td id="fuel_qty_02_total_liters" type="input"/>
+		</tr>
+
+						<tr>
+			<td> Crane </td>
+			<td id="fuel_qty_03_qty" type="input"/>
+			<td id="fuel_qty_03_liters_per_day" type="input"/>
+			<td id="fuel_qty_03_rigmove" type="input"/>
+			<td id="fuel_qty_03_dsurface" type="input"/>
+			<td id="fuel_qty_03_fsurface" type="input"/>
+			<td id="fuel_qty_03_dintermediate" type="input"/>
+			<td id="fuel_qty_03_fintermediate" type="input"/>
+			<td id="fuel_qty_03_dproduction" type="input"/>
+			<td id="fuel_qty_03_fproduction" type="input"/>
+			<td id="fuel_qty_03_dliner1" type="input"/>
+			<td id="fuel_qty_03_fliner1" type="input"/>
+			<td id="fuel_qty_03_fliner2" type="input"/>
+			<td id="fuel_qty_03_fliner3" type="input"/>
+			<td id="fuel_qty_03_total_liters" type="input"/>
+		</tr>
+
+		
+						<tr>
+			<td> Cementing Unit </td>
+			<td id="fuel_qty_04_qty" type="input"/>
+			<td id="fuel_qty_04_liters_per_day" type="input"/>
+			<td id="fuel_qty_04_rigmove" type="input"/>
+			<td id="fuel_qty_04_dsurface" type="input"/>
+			<td id="fuel_qty_04_fsurface" type="input"/>
+			<td id="fuel_qty_04_dintermediate" type="input"/>
+			<td id="fuel_qty_04_fintermediate" type="input"/>
+			<td id="fuel_qty_04_dproduction" type="input"/>
+			<td id="fuel_qty_04_fproduction" type="input"/>
+			<td id="fuel_qty_04_dliner1" type="input"/>
+			<td id="fuel_qty_04_fliner1" type="input"/>
+			<td id="fuel_qty_04_fliner2" type="input"/>
+			<td id="fuel_qty_04_fliner3" type="input"/>
+			<td id="fuel_qty_04_total_liters" type="input"/>
+		</tr>
+
+						<tr>
+			<td> Water Pump </td>
+			<td id="fuel_qty_05_qty" type="input"/>
+			<td id="fuel_qty_05_liters_per_day" type="input"/>
+			<td id="fuel_qty_05_rigmove" type="input"/>
+			<td id="fuel_qty_05_dsurface" type="input"/>
+			<td id="fuel_qty_05_fsurface" type="input"/>
+			<td id="fuel_qty_05_dintermediate" type="input"/>
+			<td id="fuel_qty_05_fintermediate" type="input"/>
+			<td id="fuel_qty_05_dproduction" type="input"/>
+			<td id="fuel_qty_05_fproduction" type="input"/>
+			<td id="fuel_qty_05_dliner1" type="input"/>
+			<td id="fuel_qty_05_fliner1" type="input"/>
+			<td id="fuel_qty_05_fliner2" type="input"/>
+			<td id="fuel_qty_05_fliner3" type="input"/>
+			<td id="fuel_qty_05_total_liters" type="input"/>
+		</tr>
+
+						<tr>
+			<td> Rig Trucks </td>
+			<td id="fuel_qty_06_qty" type="input"/>
+			<td id="fuel_qty_06_liters_per_day" type="input"/>
+			<td id="fuel_qty_06_rigmove" type="input"/>
+			<td id="fuel_qty_06_dsurface" type="input"/>
+			<td id="fuel_qty_06_fsurface" type="input"/>
+			<td id="fuel_qty_06_dintermediate" type="input"/>
+			<td id="fuel_qty_06_fintermediate" type="input"/>
+			<td id="fuel_qty_06_dproduction" type="input"/>
+			<td id="fuel_qty_06_fproduction" type="input"/>
+			<td id="fuel_qty_06_dliner1" type="input"/>
+			<td id="fuel_qty_06_fliner1" type="input"/>
+			<td id="fuel_qty_06_fliner2" type="input"/>
+			<td id="fuel_qty_06_fliner3" type="input"/>
+			<td id="fuel_qty_06_total_liters" type="input"/>
+		</tr>
+
+								<tr>
+			<td> Tower Lights (Genset) </td>
+			<td id="fuel_qty_07_qty" type="input"/>
+			<td id="fuel_qty_07_liters_per_day" type="input"/>
+			<td id="fuel_qty_07_rigmove" type="input"/>
+			<td id="fuel_qty_07_dsurface" type="input"/>
+			<td id="fuel_qty_07_fsurface" type="input"/>
+			<td id="fuel_qty_07_dintermediate" type="input"/>
+			<td id="fuel_qty_07_fintermediate" type="input"/>
+			<td id="fuel_qty_07_dproduction" type="input"/>
+			<td id="fuel_qty_07_fproduction" type="input"/>
+			<td id="fuel_qty_07_dliner1" type="input"/>
+			<td id="fuel_qty_07_fliner1" type="input"/>
+			<td id="fuel_qty_07_fliner2" type="input"/>
+			<td id="fuel_qty_07_fliner3" type="input"/>
+			<td id="fuel_qty_07_total_liters" type="input"/>
+		</tr>
+
+	</rows>
+</cost_details_qty>
+
+<fuel_cost_details_cost>
+	<headers>
+		<td> Equipment 		</td>
+		<td> UNIT COST 			</td>
+		<td> Liters Per Day </td>
+		<td> RIGMOVE		</td>
+		<td> DSURFACE		</td>
+		<td> FSURFACE		</td>
+		<td> DINTERMEDIATE	</td>
+		<td> FINTERMEDIATE	</td>
+		<td> DPRODUCTION	</td>
+		<td> FPRODUCTION	</td>
+		<td> DLINER1		</td>
+		<td> FLINER1		</td>
+		<td> FLINER2		</td>
+		<td> FLINER3		</td>		
+		<td> TOTAL PHP		</td>		
+		
+	</headers>
+	<rows>
+		<tr>
+			<td> Rig </td>
+			<td id="fuel_cost_01_qty" type="input"/>
+			<td id="fuel_cost_01_liters_per_day" type="input"/>
+			<td id="fuel_cost_01_rigmove" type="input"/>
+			<td id="fuel_cost_01_dsurface" type="input"/>
+			<td id="fuel_cost_01_fsurface" type="input"/>
+			<td id="fuel_cost_01_dintermediate" type="input"/>
+			<td id="fuel_cost_01_fintermediate" type="input"/>
+			<td id="fuel_cost_01_dproduction" type="input"/>
+			<td id="fuel_cost_01_fproduction" type="input"/>
+			<td id="fuel_cost_01_dliner1" type="input"/>
+			<td id="fuel_cost_01_fliner1" type="input"/>
+			<td id="fuel_cost_01_fliner2" type="input"/>
+			<td id="fuel_cost_01_fliner3" type="input"/>
+			<td id="fuel_cost_01_total_liters" type="input"/>
+		</tr>
+		
+				<tr>
+			<td> Air Drilling Equipment </td>
+			<td id="fuel_cost_02_qty" type="input"/>
+			<td id="fuel_cost_02_liters_per_day" type="input"/>
+			<td id="fuel_cost_02_rigmove" type="input"/>
+			<td id="fuel_cost_02_dsurface" type="input"/>
+			<td id="fuel_cost_02_fsurface" type="input"/>
+			<td id="fuel_cost_02_dintermediate" type="input"/>
+			<td id="fuel_cost_02_fintermediate" type="input"/>
+			<td id="fuel_cost_02_dproduction" type="input"/>
+			<td id="fuel_cost_02_fproduction" type="input"/>
+			<td id="fuel_cost_02_dliner1" type="input"/>
+			<td id="fuel_cost_02_fliner1" type="input"/>
+			<td id="fuel_cost_02_fliner2" type="input"/>
+			<td id="fuel_cost_02_fliner3" type="input"/>
+			<td id="fuel_cost_02_total_liters" type="input"/>
+		</tr>
+
+						<tr>
+			<td> Crane </td>
+			<td id="fuel_cost_03_qty" type="input"/>
+			<td id="fuel_cost_03_liters_per_day" type="input"/>
+			<td id="fuel_cost_03_rigmove" type="input"/>
+			<td id="fuel_cost_03_dsurface" type="input"/>
+			<td id="fuel_cost_03_fsurface" type="input"/>
+			<td id="fuel_cost_03_dintermediate" type="input"/>
+			<td id="fuel_cost_03_fintermediate" type="input"/>
+			<td id="fuel_cost_03_dproduction" type="input"/>
+			<td id="fuel_cost_03_fproduction" type="input"/>
+			<td id="fuel_cost_03_dliner1" type="input"/>
+			<td id="fuel_cost_03_fliner1" type="input"/>
+			<td id="fuel_cost_03_fliner2" type="input"/>
+			<td id="fuel_cost_03_fliner3" type="input"/>
+			<td id="fuel_cost_03_total_liters" type="input"/>
+		</tr>
+
+		
+						<tr>
+			<td> Cementing Unit </td>
+			<td id="fuel_cost_04_qty" type="input"/>
+			<td id="fuel_cost_04_liters_per_day" type="input"/>
+			<td id="fuel_cost_04_rigmove" type="input"/>
+			<td id="fuel_cost_04_dsurface" type="input"/>
+			<td id="fuel_cost_04_fsurface" type="input"/>
+			<td id="fuel_cost_04_dintermediate" type="input"/>
+			<td id="fuel_cost_04_fintermediate" type="input"/>
+			<td id="fuel_cost_04_dproduction" type="input"/>
+			<td id="fuel_cost_04_fproduction" type="input"/>
+			<td id="fuel_cost_04_dliner1" type="input"/>
+			<td id="fuel_cost_04_fliner1" type="input"/>
+			<td id="fuel_cost_04_fliner2" type="input"/>
+			<td id="fuel_cost_04_fliner3" type="input"/>
+			<td id="fuel_cost_04_total_liters" type="input"/>
+		</tr>
+
+						<tr>
+			<td> Water Pump </td>
+			<td id="fuel_cost_05_qty" type="input"/>
+			<td id="fuel_cost_05_liters_per_day" type="input"/>
+			<td id="fuel_cost_05_rigmove" type="input"/>
+			<td id="fuel_cost_05_dsurface" type="input"/>
+			<td id="fuel_cost_05_fsurface" type="input"/>
+			<td id="fuel_cost_05_dintermediate" type="input"/>
+			<td id="fuel_cost_05_fintermediate" type="input"/>
+			<td id="fuel_cost_05_dproduction" type="input"/>
+			<td id="fuel_cost_05_fproduction" type="input"/>
+			<td id="fuel_cost_05_dliner1" type="input"/>
+			<td id="fuel_cost_05_fliner1" type="input"/>
+			<td id="fuel_cost_05_fliner2" type="input"/>
+			<td id="fuel_cost_05_fliner3" type="input"/>
+			<td id="fuel_cost_05_total_liters" type="input"/>
+		</tr>
+
+						<tr>
+			<td> Rig Trucks </td>
+			<td id="fuel_cost_06_qty" type="input"/>
+			<td id="fuel_cost_06_liters_per_day" type="input"/>
+			<td id="fuel_cost_06_rigmove" type="input"/>
+			<td id="fuel_cost_06_dsurface" type="input"/>
+			<td id="fuel_cost_06_fsurface" type="input"/>
+			<td id="fuel_cost_06_dintermediate" type="input"/>
+			<td id="fuel_cost_06_fintermediate" type="input"/>
+			<td id="fuel_cost_06_dproduction" type="input"/>
+			<td id="fuel_cost_06_fproduction" type="input"/>
+			<td id="fuel_cost_06_dliner1" type="input"/>
+			<td id="fuel_cost_06_fliner1" type="input"/>
+			<td id="fuel_cost_06_fliner2" type="input"/>
+			<td id="fuel_cost_06_fliner3" type="input"/>
+			<td id="fuel_cost_06_total_liters" type="input"/>
+		</tr>
+
+								<tr>
+			<td> Tower Lights (Genset) </td>
+			<td id="fuel_cost_07_qty" type="input"/>
+			<td id="fuel_cost_07_liters_per_day" type="input"/>
+			<td id="fuel_cost_07_rigmove" type="input"/>
+			<td id="fuel_cost_07_dsurface" type="input"/>
+			<td id="fuel_cost_07_fsurface" type="input"/>
+			<td id="fuel_cost_07_dintermediate" type="input"/>
+			<td id="fuel_cost_07_fintermediate" type="input"/>
+			<td id="fuel_cost_07_dproduction" type="input"/>
+			<td id="fuel_cost_07_fproduction" type="input"/>
+			<td id="fuel_cost_07_dliner1" type="input"/>
+			<td id="fuel_cost_07_fliner1" type="input"/>
+			<td id="fuel_cost_07_fliner2" type="input"/>
+			<td id="fuel_cost_07_fliner3" type="input"/>
+			<td id="fuel_cost_07_total_liters" type="input"/>
+		</tr>
+
+	</rows>
+</fuel_cost_details_cost>
+
+<lubricant_cost_details_cost>
+	<headers>
+		<td> COST	</td>
+		<td> % of Fuel Cost  			</td>
+		<td> RIGMOVE		</td>
+		<td> DSURFACE		</td>
+		<td> FSURFACE		</td>
+		<td> DINTERMEDIATE	</td>
+		<td> FINTERMEDIATE	</td>
+		<td> DPRODUCTION	</td>
+		<td> FPRODUCTION	</td>
+		<td> DLINER1		</td>
+		<td> FLINER1		</td>
+		<td> FLINER2		</td>
+		<td> FLINER3		</td>		
+		<td> TOTAL PHP		</td>		
+		
+	</headers>
+	<rows>
+		<tr>
+			<td> Lubricant (Oil, grease, etc.) </td>
+			<td id="lubricant_cost_01_fuel_cost" type="input"/>
+			<td id="lubricant_cost_01_rigmove" type="input"/>
+			<td id="lubricant_cost_01_dsurface" type="input"/>
+			<td id="lubricant_cost_01_fsurface" type="input"/>
+			<td id="lubricant_cost_01_dintermediate" type="input"/>
+			<td id="lubricant_cost_01_fintermediate" type="input"/>
+			<td id="lubricant_cost_01_dproduction" type="input"/>
+			<td id="lubricant_cost_01_fproduction" type="input"/>
+			<td id="lubricant_cost_01_dliner1" type="input"/>
+			<td id="lubricant_cost_01_fliner1" type="input"/>
+			<td id="lubricant_cost_01_fliner2" type="input"/>
+			<td id="lubricant_cost_01_fliner3" type="input"/>
+			<td id="lubricant_cost_01_total_php" type="input"/>
+		</tr>
+
+	</rows>
+</lubricant_cost_details_cost>
+
+<mud_chemicals_cost_details_cost>
+	<headers>
+		<td> COST	</td>
+		<td> % of Fuel Cost  			</td>
+		<td> RIGMOVE		</td>
+		<td> DSURFACE		</td>
+		<td> FSURFACE		</td>
+		<td> DINTERMEDIATE	</td>
+		<td> FINTERMEDIATE	</td>
+		<td> DPRODUCTION	</td>
+		<td> FPRODUCTION	</td>
+		<td> DLINER1		</td>
+		<td> FLINER1		</td>
+		<td> FLINER2		</td>
+		<td> FLINER3		</td>		
+		<td> TOTAL PHP		</td>		
+		
+	</headers>
+	<rows>
+		<tr>
+			<td> Lubricant (Oil, grease, etc.) </td>
+			<td id="lubricant_cost_01_fuel_cost" type="input"/>
+			<td id="lubricant_cost_01_rigmove" type="input"/>
+			<td id="lubricant_cost_01_dsurface" type="input"/>
+			<td id="lubricant_cost_01_fsurface" type="input"/>
+			<td id="lubricant_cost_01_dintermediate" type="input"/>
+			<td id="lubricant_cost_01_fintermediate" type="input"/>
+			<td id="lubricant_cost_01_dproduction" type="input"/>
+			<td id="lubricant_cost_01_fproduction" type="input"/>
+			<td id="lubricant_cost_01_dliner1" type="input"/>
+			<td id="lubricant_cost_01_fliner1" type="input"/>
+			<td id="lubricant_cost_01_fliner2" type="input"/>
+			<td id="lubricant_cost_01_fliner3" type="input"/>
+			<td id="lubricant_cost_01_total_php" type="input"/>
+		</tr>
+
+	</rows>
+</lubricant_cost_details_cost>
+
+<mud_chemicals_cost_details_cost>
+	<headers>
+		<td> COST	</td>
+		<td> % of Fuel Cost  			</td>
+		<td> RIGMOVE		</td>
+		<td> DSURFACE		</td>
+		<td> FSURFACE		</td>
+		<td> DINTERMEDIATE	</td>
+		<td> FINTERMEDIATE	</td>
+		<td> DPRODUCTION	</td>
+		<td> FPRODUCTION	</td>
+		<td> DLINER1		</td>
+		<td> FLINER1		</td>
+		<td> FLINER2		</td>
+		<td> FLINER3		</td>		
+		<td> TOTAL PHP		</td>		
+		
+	</headers>
+	<rows>
+		<tr>
+			<td> Lubricant (Oil, grease, etc.) </td>
+			<td id="lubricant_cost_01_fuel_cost" type="input"/>
+			<td id="lubricant_cost_01_rigmove" type="input"/>
+			<td id="lubricant_cost_01_dsurface" type="input"/>
+			<td id="lubricant_cost_01_fsurface" type="input"/>
+			<td id="lubricant_cost_01_dintermediate" type="input"/>
+			<td id="lubricant_cost_01_fintermediate" type="input"/>
+			<td id="lubricant_cost_01_dproduction" type="input"/>
+			<td id="lubricant_cost_01_fproduction" type="input"/>
+			<td id="lubricant_cost_01_dliner1" type="input"/>
+			<td id="lubricant_cost_01_fliner1" type="input"/>
+			<td id="lubricant_cost_01_fliner2" type="input"/>
+			<td id="lubricant_cost_01_fliner3" type="input"/>
+			<td id="lubricant_cost_01_total_php" type="input"/>
+		</tr>
+
+	</rows>
+</lubricant_cost_details_cost>
+
+</table>

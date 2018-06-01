@@ -17,6 +17,10 @@ function $val(id) {
 	return document.getElementById(id).value;
 }
 
+function $class(arg) {
+	return document.getElementsByClassName(arg)
+}
+
 // reads XML file
 function readXML(file){
 	var TABLE_FOLDER = "tables/";
@@ -25,6 +29,22 @@ function readXML(file){
 	xmlhttp.send(null);
 
 	return(xmlhttp.responseXML);
+}
+
+function activateReline() {
+	console.log("You clicked it!")
+	var costDetails = $class("cost-details-table");
+	for (var i = 0; i < costDetails.length; ++i) {
+		costDetails[i].children[0].children[0].children[14].style.display = "block";
+		console.log("Here are the descendants!");
+		console.log(costDetails[i]);
+		console.log(costDetails[i].children[1]);
+		console.log(costDetails[i].children[1].children);
+		console.log(costDetails[i].children[1].children.length);
+		for (var j = 0; j < costDetails[i].children[1].children.length; ++i) {
+			costDetails[i].children[1].children[j].children[14].style.display = "block";
+		}
+	}
 }
 
 // loads the tables
@@ -54,7 +74,7 @@ function loadTable(pageName, tableName){
 			child = tableNode.children[1].children[i].children[j];
 
 			// add cell value
-			if (child.attributes.length === 0) {
+			if (child.attributes.length <= 1) {
 				row.insertCell(-1).innerHTML = child.innerHTML;
 			} else {
 				value  = typeof(child.attributes.value) === "undefined"  ? "" : child.attributes.value.value;

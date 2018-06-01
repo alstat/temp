@@ -67,7 +67,7 @@
 		</tr>	
 		<tr>
 			<td> <s>Reline</s> (with bug) </td>
-			<td id="reline" type="values" options="No, Yes"/>
+			<td id="reline" type="values" options="No, Yes" onchange="activateReline()"/>
 		</tr>	
 		<tr>
 			<td> FOREX, PHP/US </td>

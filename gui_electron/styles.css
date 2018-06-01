@@ -119,6 +119,14 @@ tr:hover {
     color: #d17327;
 }
 
+table.cost-details-table thead tr td:nth-of-type(15) {
+    display: none;
+} 
+
+table.cost-details-table tbody tr td:nth-of-type(15) {
+    display: none;
+}
+
 .table-title {
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
     font-size: 12pt;
